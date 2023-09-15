@@ -1,0 +1,514 @@
+[
+    {
+        "id": "c7c8a1a4fdae2a70",
+        "type": "tab",
+        "label": "21127739",
+        "disabled": false,
+        "info": "# **Họ và tên:** Vũ Minh Phát\r\n# **MSSV:** 21127739\r\n# **Lớp:** 21CLC01",
+        "env": []
+    },
+    {
+        "id": "1134692c35566110",
+        "type": "group",
+        "z": "c7c8a1a4fdae2a70",
+        "name": "Chuyển đến giao diện Login ngay khi vào website",
+        "style": {
+            "label": true,
+            "color": "#ff3f3f"
+        },
+        "nodes": [
+            "16f622665f524d34",
+            "18f550cd119edb06",
+            "7f65b41df2496bfe",
+            "3ca7964e3c6adade"
+        ],
+        "x": 94,
+        "y": 39,
+        "w": 652,
+        "h": 142
+    },
+    {
+        "id": "15ef46a06eda1597",
+        "type": "group",
+        "z": "c7c8a1a4fdae2a70",
+        "name": "Giao diện Login",
+        "style": {
+            "label": true,
+            "color": "#ff3f3f"
+        },
+        "nodes": [
+            "c33a76002324a705",
+            "0a31d8154941afa9",
+            "aa620f2f17779d06",
+            "74c0a058f27a6577",
+            "503ca6eebeacbe68"
+        ],
+        "x": 94,
+        "y": 219,
+        "w": 1018,
+        "h": 348
+    },
+    {
+        "id": "ba0b2822dacfecc7",
+        "type": "group",
+        "z": "c7c8a1a4fdae2a70",
+        "name": "Giao diện Home - Hiển thị thông tin sinh viên",
+        "style": {
+            "label": true,
+            "color": "#ff3f3f"
+        },
+        "nodes": [
+            "037cd4c7d0a247e2",
+            "7ee4a71770e9685c",
+            "1703c7d541d5cb7f",
+            "3d450c9225d3d28d",
+            "c928e4fd14119eb0",
+            "678b80abf02b02cb"
+        ],
+        "x": 94,
+        "y": 599,
+        "w": 672,
+        "h": 262
+    },
+    {
+        "id": "503ca6eebeacbe68",
+        "type": "group",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "15ef46a06eda1597",
+        "name": "Tình trạng đăng nhập",
+        "style": {
+            "label": true,
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "3195084b486dc381",
+            "28a1e7cab1060c8c",
+            "7323eb7772f10d33"
+        ],
+        "x": 654,
+        "y": 379,
+        "w": 432,
+        "h": 162
+    },
+    {
+        "id": "c33a76002324a705",
+        "type": "ui_form",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "15ef46a06eda1597",
+        "name": "Login form",
+        "label": "",
+        "group": "8783acee063704f5",
+        "order": 1,
+        "width": 8,
+        "height": 2,
+        "options": [
+            {
+                "label": "Username",
+                "value": "username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Login",
+        "cancel": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 340,
+        "wires": [
+            [
+                "aa620f2f17779d06"
+            ]
+        ]
+    },
+    {
+        "id": "0a31d8154941afa9",
+        "type": "debug",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "15ef46a06eda1597",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "aa620f2f17779d06",
+        "type": "function",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "15ef46a06eda1597",
+        "name": " Check username and password",
+        "func": "// Nếu đăng nhập đúng username là \"admin\" \n//  và password là \"admin\"\nif (msg.payload.username == \"admin\" \n    && msg.payload.password == \"admin\") {\n\n    // Biến cờ hiệu báo đăng nhập thành công\n    msg.isCorrect = true; \n\n    // Chuyển sang giao diện Home.\n    msg.payload = {\n        \"tab\": \"Home\"\n    }\n}\nelse { // Đăng nhập sai\n    // Biến cờ hiệu báo đăng nhập thất bại\n    msg.isCorrect = false;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "0a31d8154941afa9",
+                "74c0a058f27a6577",
+                "3195084b486dc381"
+            ]
+        ]
+    },
+    {
+        "id": "7323eb7772f10d33",
+        "type": "ui_text",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "503ca6eebeacbe68",
+        "group": "8783acee063704f5",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "name": "Login status",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#ff3838",
+        "x": 970,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "28a1e7cab1060c8c",
+        "type": "ui_toast",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "503ca6eebeacbe68",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 980,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "16f622665f524d34",
+        "type": "ui_ui_control",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "1134692c35566110",
+        "name": "",
+        "events": "all",
+        "x": 660,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18f550cd119edb06",
+        "type": "function",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "1134692c35566110",
+        "name": "Go to Login tab",
+        "func": "msg.payload = {\n    \"tab\": \"Login\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 80,
+        "wires": [
+            [
+                "16f622665f524d34",
+                "3ca7964e3c6adade"
+            ]
+        ]
+    },
+    {
+        "id": "7f65b41df2496bfe",
+        "type": "inject",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "1134692c35566110",
+        "name": "Inject once",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "18f550cd119edb06"
+            ]
+        ]
+    },
+    {
+        "id": "74c0a058f27a6577",
+        "type": "ui_ui_control",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "15ef46a06eda1597",
+        "name": "",
+        "events": "all",
+        "x": 740,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "037cd4c7d0a247e2",
+        "type": "ui_text",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "ba0b2822dacfecc7",
+        "group": "810af885fca33d9c",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Họ và tên:",
+        "format": "{{msg.name}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#fd0808",
+        "x": 670,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "3195084b486dc381",
+        "type": "function",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "503ca6eebeacbe68",
+        "name": "Get notification",
+        "func": "// Nếu đăng nhập thành công\nif (msg.isCorrect == true) {\n    msg.payload = \"Đăng nhập thành công!\";\n}\n// Nếu đăng nhập thất bại\nelse if (msg.isCorrect == false) {\n    msg.payload = \"Đăng nhập thất bại, vui lòng thử lại.\"\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 460,
+        "wires": [
+            [
+                "28a1e7cab1060c8c",
+                "7323eb7772f10d33"
+            ]
+        ]
+    },
+    {
+        "id": "7ee4a71770e9685c",
+        "type": "function",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "ba0b2822dacfecc7",
+        "name": "Show infomation",
+        "func": "msg.name = \"Vũ Minh Phát\";\nmsg.studentID = \"21127739\";\nmsg.className = \"21CLC01\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 700,
+        "wires": [
+            [
+                "037cd4c7d0a247e2",
+                "1703c7d541d5cb7f",
+                "3d450c9225d3d28d",
+                "678b80abf02b02cb"
+            ]
+        ]
+    },
+    {
+        "id": "1703c7d541d5cb7f",
+        "type": "ui_text",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "ba0b2822dacfecc7",
+        "group": "810af885fca33d9c",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "MSSV:",
+        "format": "{{msg.studentID}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 650,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "3d450c9225d3d28d",
+        "type": "ui_text",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "ba0b2822dacfecc7",
+        "group": "810af885fca33d9c",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Lớp:",
+        "format": "{{msg.className}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 650,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "c928e4fd14119eb0",
+        "type": "inject",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "ba0b2822dacfecc7",
+        "name": "Inject once",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 700,
+        "wires": [
+            [
+                "7ee4a71770e9685c"
+            ]
+        ]
+    },
+    {
+        "id": "3ca7964e3c6adade",
+        "type": "debug",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "1134692c35566110",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "678b80abf02b02cb",
+        "type": "debug",
+        "z": "c7c8a1a4fdae2a70",
+        "g": "ba0b2822dacfecc7",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "8783acee063704f5",
+        "type": "ui_group",
+        "name": "Log In",
+        "tab": "2bcf99cd6ad564c5",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "810af885fca33d9c",
+        "type": "ui_group",
+        "name": "Student Information",
+        "tab": "ba0f22d0d43a33ca",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2bcf99cd6ad564c5",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ba0f22d0d43a33ca",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": true
+    }
+]

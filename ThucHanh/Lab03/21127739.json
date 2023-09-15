@@ -1,0 +1,505 @@
+[
+    {
+        "id": "81c1a3344cce171d",
+        "type": "tab",
+        "label": "21127739_Lab03",
+        "disabled": false,
+        "info": "# ****Họ và tên:**** Vũ Minh Phát\r\n# ****MSSV:**** 21127739\r\n# ****Lớp:**** 21CLC01\r\n# ****LAB 03: EVENT LOGS****",
+        "env": []
+    },
+    {
+        "id": "59d78753e1227edd",
+        "type": "group",
+        "z": "81c1a3344cce171d",
+        "name": "Logs",
+        "style": {
+            "label": true,
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "5a0a898079e763d4",
+            "6456ddf2da65883c",
+            "6bcfea6e90692cb7"
+        ],
+        "x": 1054,
+        "y": 259,
+        "w": 392,
+        "h": 182
+    },
+    {
+        "id": "a7019988dfa9ab1b",
+        "type": "group",
+        "z": "81c1a3344cce171d",
+        "name": "UI",
+        "style": {
+            "label": true,
+            "label-position": "ne",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "818bb086fd1421b9",
+            "231982acd34c77ba",
+            "2f1cd233c9e257e5",
+            "fa63871994c00da1",
+            "2f39d56410d8690c",
+            "cac00d4cf3861a58",
+            "d1fb6f820ca702df",
+            "79d332e30fe21f47",
+            "dbf22e0447c4f55e",
+            "37f0ae740596f9fd",
+            "bf043d469e9a26bc",
+            "caa1dc0b2b4f2170",
+            "3683e350cfd75c0d",
+            "d7673fc8dc78ed2c"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 612,
+        "h": 722
+    },
+    {
+        "id": "818bb086fd1421b9",
+        "type": "ui_button",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Button",
+        "group": "3723fd9c7f66e5c7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-star",
+        "payload": "Clicked",
+        "payloadType": "str",
+        "topic": "Button",
+        "topicType": "str",
+        "x": 590,
+        "y": 120,
+        "wires": [
+            [
+                "3c4354fb08086f01"
+            ]
+        ]
+    },
+    {
+        "id": "231982acd34c77ba",
+        "type": "ui_dropdown",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Dropdown",
+        "label": "Choices",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "3723fd9c7f66e5c7",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": true,
+        "options": [
+            {
+                "label": "Choice 1 : string",
+                "value": "\"Hello\"",
+                "type": "str"
+            },
+            {
+                "label": "Choice 2 : numeric",
+                "value": 0,
+                "type": "num"
+            },
+            {
+                "label": "Choice 3 : bool",
+                "value": true,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "Dropdown",
+        "topicType": "str",
+        "className": "",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "3683e350cfd75c0d"
+            ]
+        ]
+    },
+    {
+        "id": "2f1cd233c9e257e5",
+        "type": "ui_switch",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Switch",
+        "label": "Switch",
+        "tooltip": "",
+        "group": "3723fd9c7f66e5c7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "Switch",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 330,
+        "y": 360,
+        "wires": [
+            [
+                "dbf22e0447c4f55e"
+            ]
+        ]
+    },
+    {
+        "id": "fa63871994c00da1",
+        "type": "ui_slider",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Slider",
+        "label": "Slider",
+        "tooltip": "",
+        "group": "3723fd9c7f66e5c7",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "Slider",
+        "topicType": "str",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 330,
+        "y": 480,
+        "wires": [
+            [
+                "bf043d469e9a26bc"
+            ]
+        ]
+    },
+    {
+        "id": "2f39d56410d8690c",
+        "type": "ui_numeric",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Numeric",
+        "label": "Numeric",
+        "tooltip": "",
+        "group": "3723fd9c7f66e5c7",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "Numeric",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 560,
+        "y": 600,
+        "wires": [
+            [
+                "3c4354fb08086f01"
+            ]
+        ]
+    },
+    {
+        "id": "cac00d4cf3861a58",
+        "type": "comment",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Icon ngôi sao",
+        "info": "",
+        "x": 530,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d1fb6f820ca702df",
+        "type": "comment",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Nhiều lựa chọn cùng lúc",
+        "info": "",
+        "x": 230,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "79d332e30fe21f47",
+        "type": "comment",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Chỉ ghi nhận giá trị cuối cùng",
+        "info": "",
+        "x": 220,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "3c4354fb08086f01",
+        "type": "function",
+        "z": "81c1a3344cce171d",
+        "name": "Push event log to array",
+        "func": "// Trường hợp xóa toàn bộ Log\nif (msg.clearLogs == true) {\n    var dashboardLog = flow.get('dashboardLog') || [];\n    \n    while (dashboardLog.length > 0) {\n        dashboardLog.shift();\n        // dashboardLog.length -= 1;\n        // console.log(dashboardLog.length);\n    }\n    \n    flow.set('dashboardLog', dashboardLog);\n\n    msg = {};\n    msg.payload = dashboardLog; \n    return msg;\n}\n\n/* Thêm gói dữ liệu mới gồm {topic và payload} \nvào mảng dashboardLog và lưu trữ lại trong miền flow \n*/\n// init counter to 0 if it does NOT exist already\nvar dashboardLog = flow.get('dashboardLog') || [];\n\ndashboardLog.push(msg);\nif (dashboardLog.length > 20) {\n    // delete oldest msg if > 20\n    dashboardLog.shift();\n    dashboardLog.length = 20;\n}\n// console.log(dashboardLog.length);\n\n// store the value back\nflow.set('dashboardLog', dashboardLog);\n\n// make it part of the outgoing msg object\nmsg = {};\nmsg.payload = dashboardLog; \nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 300,
+        "wires": [
+            [
+                "5a0a898079e763d4"
+            ]
+        ]
+    },
+    {
+        "id": "5a0a898079e763d4",
+        "type": "ui_template",
+        "z": "81c1a3344cce171d",
+        "g": "59d78753e1227edd",
+        "group": "e98b15453141ab65",
+        "name": "Logs",
+        "order": 1,
+        "width": 8,
+        "height": 10,
+        "format": "<ul>\n    <li ng-repeat=\"x in msg.payload\">\n        <font color=\"red\"><b>{{x.topic}}</b></font>\n        <ul>\n            <li>{{x.payload}}</li>\n        </ul>\n    </li>\n</ul>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1370,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6456ddf2da65883c",
+        "type": "ui_button",
+        "z": "81c1a3344cce171d",
+        "g": "59d78753e1227edd",
+        "name": "Clear Logs",
+        "group": "e98b15453141ab65",
+        "order": 2,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Clear Logs",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-eraser",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "clearLog",
+        "topicType": "str",
+        "x": 1150,
+        "y": 400,
+        "wires": [
+            [
+                "6bcfea6e90692cb7"
+            ]
+        ]
+    },
+    {
+        "id": "6bcfea6e90692cb7",
+        "type": "function",
+        "z": "81c1a3344cce171d",
+        "g": "59d78753e1227edd",
+        "name": "Check clear logs",
+        "func": "if (msg.payload == true) {\n    msg.clearLogs = true;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 400,
+        "wires": [
+            [
+                "3c4354fb08086f01"
+            ]
+        ]
+    },
+    {
+        "id": "dbf22e0447c4f55e",
+        "type": "function",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Get value from switch",
+        "func": "// init switchValue to 0 if it doesn't exist already\nvar switchValue = flow.get('switch') || 0;\n\n// get value from payload\nswitchValue = msg.payload;\n\n// store the value back\nflow.set('switch', switchValue);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 360,
+        "wires": [
+            [
+                "3c4354fb08086f01"
+            ]
+        ]
+    },
+    {
+        "id": "37f0ae740596f9fd",
+        "type": "debug",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "debug",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "bf043d469e9a26bc",
+        "type": "function",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Get value from slider",
+        "func": "// init sliderValue to 0 if it doesn't exist already\nvar sliderValue = flow.get('slider') || 0;\n\n// get value from payload\nsliderValue = msg.payload;\n\n// store the value back\nflow.set('slider', sliderValue);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 480,
+        "wires": [
+            [
+                "3c4354fb08086f01"
+            ]
+        ]
+    },
+    {
+        "id": "caa1dc0b2b4f2170",
+        "type": "function",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Get value from text input",
+        "func": "// init textInputValue to 0 if it doesn't exist already\nvar textInputValue = flow.get('textInput') || 0;\n\n// get value from payload\ntextInputValue = msg.payload;\n\n// store the value back\nflow.set('textInput', textInputValue);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 720,
+        "wires": [
+            [
+                "3c4354fb08086f01"
+            ]
+        ]
+    },
+    {
+        "id": "3683e350cfd75c0d",
+        "type": "function",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Update dropdown value",
+        "func": "for (let index = 0; index < msg.payload.length; index++) {\n    if (typeof msg.payload[index] == \"string\") {\n        msg.payload[index] = flow.get(\"textInput\");\n    }\n    else if (typeof msg.payload[index] == \"number\") {\n        msg.payload[index] = flow.get(\"slider\");\n    }\n    else if (typeof msg.payload[index] == \"boolean\") {\n        msg.payload[index] = flow.get(\"switch\");\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "37f0ae740596f9fd",
+                "3c4354fb08086f01"
+            ]
+        ]
+    },
+    {
+        "id": "d7673fc8dc78ed2c",
+        "type": "ui_text_input",
+        "z": "81c1a3344cce171d",
+        "g": "a7019988dfa9ab1b",
+        "name": "Text Input",
+        "label": "Change Text",
+        "tooltip": "",
+        "group": "3723fd9c7f66e5c7",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Text Input",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 320,
+        "y": 720,
+        "wires": [
+            [
+                "caa1dc0b2b4f2170"
+            ]
+        ]
+    },
+    {
+        "id": "3723fd9c7f66e5c7",
+        "type": "ui_group",
+        "name": "UI Elements",
+        "tab": "e9bb9ead8ee341d6",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e98b15453141ab65",
+        "type": "ui_group",
+        "name": "Logs",
+        "tab": "e9bb9ead8ee341d6",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e9bb9ead8ee341d6",
+        "type": "ui_tab",
+        "name": "Event Logs",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    }
+]

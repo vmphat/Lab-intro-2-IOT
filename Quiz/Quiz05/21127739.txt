@@ -1,0 +1,132 @@
+// Họ và tên: Vũ Minh Phát
+// MSSV: 21127739
+// Lớp: 21CLC01
+// Quiz 05
+
+#include <WiFi.h>
+#include <PubSubClient.h>
+
+const char* ssid = "Wokwi-GUEST";
+const char* password = "";
+
+const char* studentIDs[3] = {"21127739", "21127151", "21127033"};
+const char* studentNames[3] = {"Vũ Minh Phát", "Nguyễn Nhật Quang", "Trần Thành Duy"};
+const int nStudent = sizeof(studentIDs)/sizeof(studentIDs[0]);
+
+// Lưu thông tin vị trí để trả về Họ Tên tương ứng với MSSV gửi về từ NodeRED
+enum ID_CHECK: int {
+  NONE = -1        // Báo hiệu kết thúc phiên hoạt động
+  , NOT_EXIST = -2 // MSSV không tồn tại
+};
+int studentIndex = NONE;
+
+//***Set server***
+const char* mqttServer = "broker.hivemq.com"; 
+int port = 1883;
+
+WiFiClient wifiClient;
+PubSubClient mqttClient(wifiClient);
+
+void wifiConnect() {
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println(" Connected!");
+}
+
+void mqttConnect() {
+  while(!mqttClient.connected()) {
+    Serial.println("Attemping MQTT connection...");
+    String clientId = "ESP32Client-";
+    clientId += String(random(0xffff), HEX);
+    if(mqttClient.connect(clientId.c_str())) {
+      Serial.println("connected");
+
+      //***Subscribe all topic you need***
+      // Cần lấy thông tin MSSV để tìm Họ Tên tương ứng
+      mqttClient.subscribe("21127739/studentID");
+
+    }
+    else {
+      Serial.println("try again in 5 seconds");
+      delay(5000);
+    }
+  }
+}
+
+//MQTT Receiver
+void callback(char* topic, byte* message, unsigned int length) {
+  Serial.println(topic);
+  String strMsg;
+  for(int i=0; i<length; i++) {
+    strMsg += (char)message[i];
+  }
+  Serial.println(strMsg);
+
+  //***Code here to process the received package***
+  
+  // Xử lý topic liên quan đến MSSV
+  if (strcmp(topic, "21127739/studentID") == 0) {
+    // Giả sử MSSV không tồn tại trong danh sách
+    studentIndex = NOT_EXIST;
+
+    // Xử lý MSSV nhận được -> tìm ra studentIndex tương ứng
+    for (int i = 0; i < nStudent; ++i) {
+      // Trường hợp tìm thấy SV có mã là strMsg
+      if (strcmp(strMsg.c_str(), studentIDs[i]) == 0) {
+        studentIndex = i; // ta lưu vị trí tương ứng
+        break;            // và thoát khỏi vòng lặp
+      }
+    }
+  }
+
+}
+
+void setup() {
+  Serial.begin(9600);
+  Serial.print("Connecting to WiFi");
+
+  wifiConnect();
+  mqttClient.setServer(mqttServer, port);
+  mqttClient.setCallback(callback);
+  mqttClient.setKeepAlive( 90 );
+}
+
+
+void loop() {
+  if(!mqttClient.connected()) {
+    mqttConnect();
+  }
+  mqttClient.loop();
+
+  //***Publish data to MQTT Server***
+
+  // Gửi dữ liệu lên MQTT server -> NodeRED lấy về
+
+  if (studentIndex != NONE) { // Tín hiệu bắt đầu phiên truyền dữ liệu
+
+    Serial.println(studentIndex);
+
+    // Trường hợp MSSV KHÔNG TỒN TẠI
+    if (studentIndex == NOT_EXIST) {
+      // mqttClient.publish("21127739/studentName", "Mã số sinh viên không tồn tại!");
+      mqttClient.publish("21127739/studentName", "MSSV không tồn tại!");
+    } 
+    // Trường hợp MSSV hợp lệ -> ta gửi về Họ Tên SV tương ứng
+    else {
+      Serial.println(studentNames[studentIndex]);
+      mqttClient.publish("21127739/studentName", studentNames[studentIndex]);
+    }
+
+    // Kết thúc phiên gửi dữ liệu
+    studentIndex = NONE;
+  } 
+
+  Serial.println("----------");
+
+  // delay(5000);
+  delay(2000);
+
+}

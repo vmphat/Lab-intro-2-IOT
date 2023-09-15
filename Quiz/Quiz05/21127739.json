@@ -1,0 +1,338 @@
+[
+    {
+        "id": "122fe90adc74cf32",
+        "type": "tab",
+        "label": "21127739_Quiz05",
+        "disabled": false,
+        "info": "# **Họ và tên**: Vũ Minh Phát\r\n# **MSSV**: 21127739\r\n# **Lớp**: 21CLC01\r\n# **Quiz 05**",
+        "env": []
+    },
+    {
+        "id": "9e199d848a09d189",
+        "type": "group",
+        "z": "122fe90adc74cf32",
+        "name": "Xử lý nhập và gửi MSSV về ESP32",
+        "style": {
+            "label": true,
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "e2527a6deb2dd205",
+            "864bb2ba5c254db9",
+            "bdb967bcc5928edf",
+            "1a94f7e9814a1900",
+            "3f770b6a36bd4be1",
+            "a2f8fc9339a34873"
+        ],
+        "x": 234,
+        "y": 79,
+        "w": 752,
+        "h": 202
+    },
+    {
+        "id": "ac520f3ab4042e9f",
+        "type": "group",
+        "z": "122fe90adc74cf32",
+        "name": "Lấy thông tin họ tên và hiển thị",
+        "style": {
+            "label": true,
+            "color": "#0070c0"
+        },
+        "nodes": [
+            "5b66079fb9df2657",
+            "12c8902ddfd69285",
+            "28409377d67cb3ec",
+            "3640d16283b53c8e"
+        ],
+        "x": 234,
+        "y": 319,
+        "w": 732,
+        "h": 162
+    },
+    {
+        "id": "e2527a6deb2dd205",
+        "type": "ui_text_input",
+        "z": "122fe90adc74cf32",
+        "g": "9e199d848a09d189",
+        "name": "Enter Student_ID",
+        "label": "Mời nhập vào 1 MSSV",
+        "tooltip": "",
+        "group": "deb6abe87326da7c",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "3f770b6a36bd4be1"
+            ]
+        ]
+    },
+    {
+        "id": "864bb2ba5c254db9",
+        "type": "ui_button",
+        "z": "122fe90adc74cf32",
+        "g": "9e199d848a09d189",
+        "name": "Send Student_ID",
+        "group": "deb6abe87326da7c",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "GỬI MSSV",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-paper-plane",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "a2f8fc9339a34873"
+            ]
+        ]
+    },
+    {
+        "id": "5b66079fb9df2657",
+        "type": "ui_text",
+        "z": "122fe90adc74cf32",
+        "g": "ac520f3ab4042e9f",
+        "group": "deb6abe87326da7c",
+        "order": 6,
+        "width": 8,
+        "height": 1,
+        "name": "Display student name",
+        "label": "Họ và tên của sinh viên:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "12c8902ddfd69285",
+        "type": "mqtt in",
+        "z": "122fe90adc74cf32",
+        "g": "ac520f3ab4042e9f",
+        "name": "",
+        "topic": "21127739/studentName",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "2ceae37bd99978eb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 360,
+        "y": 400,
+        "wires": [
+            [
+                "28409377d67cb3ec"
+            ]
+        ]
+    },
+    {
+        "id": "bdb967bcc5928edf",
+        "type": "mqtt out",
+        "z": "122fe90adc74cf32",
+        "g": "9e199d848a09d189",
+        "name": "",
+        "topic": "21127739/studentID",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2ceae37bd99978eb",
+        "x": 860,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1a94f7e9814a1900",
+        "type": "debug",
+        "z": "122fe90adc74cf32",
+        "g": "9e199d848a09d189",
+        "name": "Debug studentID",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3f770b6a36bd4be1",
+        "type": "function",
+        "z": "122fe90adc74cf32",
+        "g": "9e199d848a09d189",
+        "name": "Set studentID",
+        "func": "// get value from payload\nvar studentID = msg.payload;\n// store the value to flow\nflow.set(\"studentID\", studentID);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2f8fc9339a34873",
+        "type": "function",
+        "z": "122fe90adc74cf32",
+        "g": "9e199d848a09d189",
+        "name": "Get studentID",
+        "func": "// initialise the studentID to \"\" if it doesn't exist already\nvar studentID = flow.get(\"studentID\") || \"\";\n\n// load it to msg.payload\nmsg.payload = studentID;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 240,
+        "wires": [
+            [
+                "1a94f7e9814a1900",
+                "bdb967bcc5928edf"
+            ]
+        ]
+    },
+    {
+        "id": "28409377d67cb3ec",
+        "type": "function",
+        "z": "122fe90adc74cf32",
+        "g": "ac520f3ab4042e9f",
+        "name": "Check result",
+        "func": "if (msg.payload.includes(\"không tồn tại\")) {\n    msg.noti = msg.payload;\n    msg.payload = \"\";\n} \nelse {\n    msg.noti = \"\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 400,
+        "wires": [
+            [
+                "5b66079fb9df2657",
+                "3640d16283b53c8e"
+            ]
+        ]
+    },
+    {
+        "id": "3640d16283b53c8e",
+        "type": "ui_text",
+        "z": "122fe90adc74cf32",
+        "g": "ac520f3ab4042e9f",
+        "group": "deb6abe87326da7c",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "name": "Show notification",
+        "label": "",
+        "format": "{{msg.noti}}",
+        "layout": "row-right",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#fb1818",
+        "x": 830,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "9012ab06c28f997b",
+        "type": "ui_spacer",
+        "z": "122fe90adc74cf32",
+        "name": "spacer",
+        "group": "deb6abe87326da7c",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0bd23d23689b8fbb",
+        "type": "ui_spacer",
+        "z": "122fe90adc74cf32",
+        "name": "spacer",
+        "group": "deb6abe87326da7c",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "deb6abe87326da7c",
+        "type": "ui_group",
+        "name": "Tra cứu thông tin sinh viên",
+        "tab": "e4f6f616723a8e58",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2ceae37bd99978eb",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e4f6f616723a8e58",
+        "type": "ui_tab",
+        "name": "21127739_Quiz05",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    }
+]

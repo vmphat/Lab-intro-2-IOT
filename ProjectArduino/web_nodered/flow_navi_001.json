@@ -1,0 +1,4124 @@
+[
+    {
+        "id": "9b30030f667a40d7",
+        "type": "tab",
+        "label": "NaVi-001",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2107adafd3f2e281",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "name": "Humid_Temp_HeatIdx",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ec7385d7640cf636",
+            "97a45e4e164b7a7d",
+            "762ed6d68b4fd934",
+            "1cd8206f4e2fac13",
+            "e603ad851179a861",
+            "cc902911dceab8f7",
+            "6ef0396890c0f879",
+            "07572dd054fbe2ae",
+            "5aedfc57fe4918b1",
+            "3349a9b93ce2b77b",
+            "d37da6c28135923a",
+            "31bc9493808c2d54",
+            "7ed66a016177fcd7",
+            "fe5402125c4cda08",
+            "5322b7e005a9399b",
+            "6bca8a95a9f282ca",
+            "5af30b734ae5058e",
+            "df5e234cd4db11c1",
+            "a4fc473fd8223d06",
+            "8454ff8d3eb51f6f",
+            "a69734b5ec87fa3a",
+            "6fb20fe2f7a0b45f",
+            "48c559e935807357",
+            "6f2ed81c9438819e",
+            "73e76bb0a0c942ef",
+            "4ece93327fdf7637",
+            "ae35d873159d445a"
+        ],
+        "x": 54,
+        "y": 779,
+        "w": 1612,
+        "h": 642
+    },
+    {
+        "id": "b12cd125cac9101f",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d6a5270a.a1ad7",
+            "d69cdc8c.cc5fc8",
+            "3890188435ef5f09",
+            "e8579a04db1c960a",
+            "a8479e6d86c2144e"
+        ],
+        "x": 54,
+        "y": 313,
+        "w": 838,
+        "h": 428
+    },
+    {
+        "id": "7b936ea09aff6d98",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "name": "Car Control",
+        "style": {
+            "label": true,
+            "color": "#777777"
+        },
+        "nodes": [
+            "0d8caface57161ea",
+            "d24b83a37787ab2c",
+            "a9f1c933861a5ace",
+            "c33287f12a73cd31",
+            "dfd6a069df19c724",
+            "d107021aa67830f1",
+            "ea8f1c1c184e31d5",
+            "9cb3dcfdda8527e7",
+            "f1c5562cc2f012b9",
+            "13bb9b045253925d",
+            "cf635beb95c3942f",
+            "e53848411026fe14",
+            "a273c54a83fd6b1f",
+            "c8a306698a2e776d",
+            "b0025355e571df21",
+            "5b61896d7a740f4c",
+            "81093c9dbc487b42",
+            "35604768cf5f159f",
+            "aba498bb53e66a0a",
+            "ea4135a50f9b6112",
+            "1f0df7d1050febdd",
+            "5942e3f807f2d4e0",
+            "fd90eba1138901d9",
+            "37df06900ca0788c",
+            "dd2c121f5414d3a5",
+            "8cf9a4327239fa44",
+            "eaf5137197d64d34",
+            "61cdfb5b40aaf2e8",
+            "994ba554c9e905b8",
+            "ce81ed225d759c1a",
+            "704fa8f9a335d76f",
+            "1b994175815a891e",
+            "152354e7ea2956c2",
+            "509d0c17bdff344c"
+        ],
+        "x": 54,
+        "y": 2259,
+        "w": 1612,
+        "h": 842
+    },
+    {
+        "id": "16e95202e45e2966",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "name": "Gas Concentration",
+        "style": {
+            "label": true,
+            "color": "#777777"
+        },
+        "nodes": [
+            "45c7157b6a5f42a2",
+            "8b744e34a6c09645",
+            "709ce8ebd4ec6e06",
+            "dda2b5f104da9c15",
+            "d4fd1dd524e967f6",
+            "688b79904e024b47",
+            "c967b1215068c97c",
+            "9e1b1625513c1232",
+            "3e5d03f1e4fca6a9",
+            "bc3d1da38c7142f1",
+            "d1d6ed97db184a91",
+            "52d99c981d818510",
+            "ef239b235c0aeeb1",
+            "5c17abc4e3d99b4b",
+            "4aa27e490bc410f6",
+            "5c07c0f4edabeffa",
+            "c0d672dcf27c1d69",
+            "8c5e07b328c2ded1",
+            "f7b10a3a751f5127",
+            "91e188907b312e69",
+            "df836dc02e5cdeca",
+            "60ce997a8140bbc6",
+            "0fa96255657cc521",
+            "c65ca87f2b99e8d1",
+            "372cec0c0c998098"
+        ],
+        "x": 54,
+        "y": 1459,
+        "w": 1492,
+        "h": 582
+    },
+    {
+        "id": "bbc270e55f31ad15",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "931dfa09f4308b1f",
+            "3908fef77614f8da",
+            "115155e7a4bf8352",
+            "ac6347212ddf42dc",
+            "ce78e3603a1cbf26",
+            "04c56c25554c5b1f",
+            "396873e8d7e4a2ea",
+            "6e83cde96e28c00e",
+            "f6800b8acf0b83fa",
+            "39c6294404da255c",
+            "84fb06d4e6c84a2b",
+            "25e177d51a8626e4",
+            "79c6fb5c1db5e39a",
+            "34636e0c2ebd3dd0",
+            "5a64278bc7077e14"
+        ],
+        "x": 914,
+        "y": 59,
+        "w": 772,
+        "h": 402
+    },
+    {
+        "id": "3b0f026892bd01fb",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "name": "Human detected",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "581d65855e4fd176",
+            "7e6b77f5e251b123",
+            "0db9f0deb01d0b2a",
+            "57a15fbc2d9db7cb"
+        ],
+        "x": 54,
+        "y": 2079,
+        "w": 1272,
+        "h": 142
+    },
+    {
+        "id": "7ebbdd869e1ce2cc",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "name": " Notify users in case of emergency",
+        "style": {
+            "label": true,
+            "color": "#7f7f7f"
+        },
+        "nodes": [
+            "47225c64851c0271",
+            "8fad24382700591e",
+            "39658aca00d61a5b",
+            "08c620030b74f963",
+            "939e0c4a31995d51",
+            "fff91375b695448f",
+            "6f8669073f60b9ae"
+        ],
+        "x": 1714,
+        "y": 1999,
+        "w": 492,
+        "h": 322
+    },
+    {
+        "id": "7ed06cbb24a9d394",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "name": "Heading and some CSS for Flow",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7ca243ff5e69a98f",
+            "b4a78010af069b76",
+            "bad686205e2319cb",
+            "f16792203995a17c",
+            "f7078580c9532887"
+        ],
+        "x": 54,
+        "y": 59,
+        "w": 632,
+        "h": 202
+    },
+    {
+        "id": "e8579a04db1c960a",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "g": "b12cd125cac9101f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "70e66951.7f8db8",
+            "73cfba63.44fd8c",
+            "2c5398c5.39a2c",
+            "1cac2148.949c6f",
+            "a4f52203.59e9f8",
+            "c8a0935.7345df",
+            "8602a31e.1509d8",
+            "edc314f99b189c2e"
+        ],
+        "x": 394,
+        "y": 339,
+        "w": 472,
+        "h": 162
+    },
+    {
+        "id": "a8479e6d86c2144e",
+        "type": "group",
+        "z": "9b30030f667a40d7",
+        "g": "b12cd125cac9101f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5b513beea4a022d1",
+            "ee0f47752add04e0",
+            "d5a459339aa3e15b",
+            "d61cf3b0727e2258",
+            "1f3722ef1d6c6b22",
+            "bf292bd194769270",
+            "bee6a02aed6fbb43",
+            "61e7e853fe4081a4"
+        ],
+        "x": 254,
+        "y": 519,
+        "w": 612,
+        "h": 162
+    },
+    {
+        "id": "ec7385d7640cf636",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "d": true,
+        "g": "2107adafd3f2e281",
+        "name": "Temperature",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "payload": "25 * (1 + 0.8*($random()-0.5))",
+        "payloadType": "jsonata",
+        "x": 520,
+        "y": 1100,
+        "wires": [
+            [
+                "97a45e4e164b7a7d"
+            ]
+        ]
+    },
+    {
+        "id": "97a45e4e164b7a7d",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timestamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperature",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "deviceID",
+                "pt": "msg",
+                "to": "($env(\"deviceID\") = \"\") ? \"Simulated\" : $env(\"deviceID\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_high_temperature",
+                "pt": "msg",
+                "to": "(msg.payload > 38) ? true : false",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_low_temperature",
+                "pt": "msg",
+                "to": "(msg.payload < 16) ? true : false",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1100,
+        "wires": [
+            [
+                "07572dd054fbe2ae",
+                "3349a9b93ce2b77b",
+                "8454ff8d3eb51f6f"
+            ]
+        ]
+    },
+    {
+        "id": "762ed6d68b4fd934",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timestamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Humidity",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "deviceID",
+                "pt": "msg",
+                "to": "($env(\"deviceID\") = \"\") ? \"Simulated\" : $env(\"deviceID\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_high_humidity",
+                "pt": "msg",
+                "to": "(msg.payload > 80) ? true : false",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_low_humidity",
+                "pt": "msg",
+                "to": "(msg.payload < 40) ? true : false",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 900,
+        "wires": [
+            [
+                "5aedfc57fe4918b1",
+                "3349a9b93ce2b77b",
+                "5af30b734ae5058e"
+            ]
+        ]
+    },
+    {
+        "id": "1cd8206f4e2fac13",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "d": true,
+        "g": "2107adafd3f2e281",
+        "name": "Humidity",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "55* (1 + 0.99*($random()-0.5))",
+        "payloadType": "jsonata",
+        "x": 500,
+        "y": 900,
+        "wires": [
+            [
+                "762ed6d68b4fd934"
+            ]
+        ]
+    },
+    {
+        "id": "d6a5270a.a1ad7",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "b12cd125cac9101f",
+        "name": "1s",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 500,
+        "wires": [
+            [
+                "70e66951.7f8db8",
+                "5b513beea4a022d1"
+            ]
+        ]
+    },
+    {
+        "id": "70e66951.7f8db8",
+        "type": "simpletime",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "name": "",
+        "mydate": true,
+        "myymd": true,
+        "myyear": true,
+        "mymonth": true,
+        "mymonthn": true,
+        "mydom": true,
+        "mydoy": true,
+        "myday": true,
+        "myhourpm": true,
+        "myhour": true,
+        "mytime": true,
+        "mytimes": true,
+        "myminute": true,
+        "myminutes": true,
+        "mysecond": true,
+        "mymillis": true,
+        "myepoch": true,
+        "myrawdate": true,
+        "mypm": true,
+        "x": 490,
+        "y": 420,
+        "wires": [
+            [
+                "1cac2148.949c6f",
+                "73cfba63.44fd8c",
+                "2c5398c5.39a2c"
+            ]
+        ]
+    },
+    {
+        "id": "73cfba63.44fd8c",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "myminute",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 645,
+        "y": 420,
+        "wires": [
+            [
+                "c8a0935.7345df"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2c5398c5.39a2c",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "mysecond",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 645,
+        "y": 460,
+        "wires": [
+            [
+                "8602a31e.1509d8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1cac2148.949c6f",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "myhour",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 645,
+        "y": 380,
+        "wires": [
+            [
+                "a4f52203.59e9f8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a4f52203.59e9f8",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "name": "Current Hr",
+        "group": "573e0e4a.d065e",
+        "order": 2,
+        "width": 2,
+        "height": 2,
+        "gtype": "donut",
+        "title": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "24",
+        "colors": [
+            "#6cd5ea",
+            "#f3ce68",
+            "#d681fe"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 770,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "c8a0935.7345df",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "name": "Current Mn",
+        "group": "573e0e4a.d065e",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "gtype": "donut",
+        "title": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#6cf7f9",
+            "#fed690",
+            "#fe7171"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 770,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "8602a31e.1509d8",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "name": "Current Sc",
+        "group": "573e0e4a.d065e",
+        "order": 4,
+        "width": 2,
+        "height": 2,
+        "gtype": "donut",
+        "title": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#2ffefb",
+            "#ffe08a",
+            "#ff8b85"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 770,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "e603ad851179a861",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "d": true,
+        "g": "2107adafd3f2e281",
+        "name": "Heat Index",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "38 * (1 + 0.8*($random()-0.5))",
+        "payloadType": "jsonata",
+        "x": 510,
+        "y": 1320,
+        "wires": [
+            [
+                "cc902911dceab8f7"
+            ]
+        ]
+    },
+    {
+        "id": "cc902911dceab8f7",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timestamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Heat Index",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "deviceID",
+                "pt": "msg",
+                "to": "($env(\"deviceID\") = \"\") ? \"Simulated\" : $env(\"deviceID\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_high_heat_index",
+                "pt": "msg",
+                "to": "(msg.payload > 48) ? true : false",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 1320,
+        "wires": [
+            [
+                "6ef0396890c0f879",
+                "3349a9b93ce2b77b",
+                "4ece93327fdf7637"
+            ]
+        ]
+    },
+    {
+        "id": "5b513beea4a022d1",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "name": "Time elapsed",
+        "func": "var currentTime = new Date().getTime();\nvar startTime = flow.get(\"startTime\");\n\n//                          <UNIX time 0>\n// Date(milisecond) -> (1970/01/01) 0h:0m:0s + milisecond\n//                  -> convert to zone\nmsg.payload = new Date(currentTime - startTime);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n// Thời điểm chương trình bắt đầu chạy\nvar startTime = new Date().getTime();\nflow.set(\"startTime\", startTime);",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 600,
+        "wires": [
+            [
+                "1f3722ef1d6c6b22",
+                "bf292bd194769270",
+                "bee6a02aed6fbb43"
+            ]
+        ]
+    },
+    {
+        "id": "ee0f47752add04e0",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "name": "Elapsed Hr",
+        "group": "573e0e4a.d065e",
+        "order": 6,
+        "width": 2,
+        "height": 2,
+        "gtype": "donut",
+        "title": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "24",
+        "colors": [
+            "#d0f372",
+            "#f9e876",
+            "#ff8ab9"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 770,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "d5a459339aa3e15b",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "name": "Elapsed Mn",
+        "group": "573e0e4a.d065e",
+        "order": 7,
+        "width": 2,
+        "height": 2,
+        "gtype": "donut",
+        "title": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#90c0fe",
+            "#63fd99",
+            "#f490ec"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 770,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "d61cf3b0727e2258",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "name": "Elapsed Sc",
+        "group": "573e0e4a.d065e",
+        "order": 8,
+        "width": 2,
+        "height": 2,
+        "gtype": "donut",
+        "title": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#d4feb4",
+            "#fe9f9f",
+            "#94ffc2"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 770,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "d69cdc8c.cc5fc8",
+        "type": "comment",
+        "z": "9b30030f667a40d7",
+        "g": "b12cd125cac9101f",
+        "name": "DonutGaugeClock",
+        "info": "",
+        "x": 170,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "1f3722ef1d6c6b22",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "name": "Get Elapsed Hr",
+        "func": "// Example: (24 + 7 - 7) % 24 = 0\nmsg.payload = (context.global.hourPerDay + msg.payload.getHours() \n            - context.global.myZone) % context.global.hourPerDay;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.global.myZone = new Date(0).getHours();\ncontext.global.hourPerDay = 24;\n",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 560,
+        "wires": [
+            [
+                "ee0f47752add04e0"
+            ]
+        ]
+    },
+    {
+        "id": "3890188435ef5f09",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "b12cd125cac9101f",
+        "name": "Elapsed Time DEBUG",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 180,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "bf292bd194769270",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "name": "Get Elapsed Mn",
+        "func": "msg.payload = msg.payload.getMinutes();\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 600,
+        "wires": [
+            [
+                "d5a459339aa3e15b"
+            ]
+        ]
+    },
+    {
+        "id": "bee6a02aed6fbb43",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "name": "Get Elapsed Sc",
+        "func": "msg.payload = msg.payload.getSeconds();\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 640,
+        "wires": [
+            [
+                "d61cf3b0727e2258"
+            ]
+        ]
+    },
+    {
+        "id": "edc314f99b189c2e",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "e8579a04db1c960a",
+        "group": "573e0e4a.d065e",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Current Time",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "time_title",
+        "style": false,
+        "font": "Verdana,Verdana,Geneva,sans-serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 490,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "61e7e853fe4081a4",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "a8479e6d86c2144e",
+        "group": "573e0e4a.d065e",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Elapsed Time",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "time_title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "0d8caface57161ea",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "ahead",
+        "group": "2a89fb107fed3567",
+        "order": 6,
+        "width": 3,
+        "height": 3,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "motor-control ahead",
+        "icon": "fa-caret-up",
+        "payload": "ahead",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 710,
+        "y": 2540,
+        "wires": [
+            [
+                "994ba554c9e905b8"
+            ]
+        ]
+    },
+    {
+        "id": "d24b83a37787ab2c",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "right",
+        "group": "2a89fb107fed3567",
+        "order": 18,
+        "width": 3,
+        "height": 3,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "motor-control right",
+        "icon": "fa-caret-right",
+        "payload": "right",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 710,
+        "y": 2720,
+        "wires": [
+            [
+                "994ba554c9e905b8"
+            ]
+        ]
+    },
+    {
+        "id": "a9f1c933861a5ace",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "back",
+        "group": "2a89fb107fed3567",
+        "order": 25,
+        "width": 3,
+        "height": 3,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "motor-control back",
+        "icon": "fa-caret-down",
+        "payload": "back",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 710,
+        "y": 2660,
+        "wires": [
+            [
+                "994ba554c9e905b8"
+            ]
+        ]
+    },
+    {
+        "id": "c33287f12a73cd31",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "left",
+        "group": "2a89fb107fed3567",
+        "order": 16,
+        "width": 3,
+        "height": 3,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "motor-control left",
+        "icon": "fa-caret-left",
+        "payload": "left",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 710,
+        "y": 2600,
+        "wires": [
+            [
+                "994ba554c9e905b8"
+            ]
+        ]
+    },
+    {
+        "id": "dfd6a069df19c724",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "name": "motor-control",
+        "order": 30,
+        "width": 3,
+        "height": 1,
+        "format": "<head>\n\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Satisfy&display=swap\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css2?family=Pacifico&display=swap\" rel=\"stylesheet\">\n\n<style>\n:root {\n    --dist_change: 40px;\n}\n/* icon */\n.nr-dashboard-button i {\n    vertical-align: unset;\n    width: unset;\n}\n\n.motor-control button {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n\n    background-color: #F8F8FF !important;\n    border-radius: 20px;    \n    border: 1.1px solid grey;   \n    \n    scale: 0.7;\n    font-size: 180px;\n    opacity: 1;\n\n    text-shadow: 2px 2px grey;\n    color: black !important;\n    box-shadow: 0 4px black,\n                0 12px grey !important; \n\n    transition-duration: 0.4s;\n    visibility: visible;\n}\n.motor-control button:hover {\n    transition-duration: 0.2s;\n    text-shadow: none;\n    border: none;\n\n    background: rgb(156,186,255);\n    background: linear-gradient(45deg, rgba(156,186,255,1) 24%, \n                rgba(208,246,255,1) 53%, \n                rgba(211,255,239,1) 75%,\n                rgba(226,255,206,1) 100%);\n/*\n    transition-duration: 0.2s;\n    text-shadow: none;\n    border: 0.9px solid #4682B4;\n    box-shadow: none !important; \n    box-shadow: 0 1px #4682B4 !important; \n    \n    background: rgb(2,0,36);\n    background: linear-gradient(45deg, rgba(2,0,36,1) 0%\n    , rgba(9,9,121,1) 35%\n    , rgba(0,212,255,1) 100%);\n*/\n}\n.motor-control button:active {\n    transform: translateY(8px);\n    box-shadow: 0 4px black !important;\n    text-shadow: 1px 1px 1px #ffc9da;\n    color: #fe7ca5 !important;\n    transition-duration: 0.4s;\n/*\n    background: rgb(136,136,255);\n    background: linear-gradient(104deg, rgba(136,136,255,1) 22%\n        , rgba(102,143,247,1) 44%\n        , rgba(13,182,247,1) 66%\n        , rgba(13,219,180,1) 100%);\n*/\n/*    transition-duration: 0.2s;\n    text-shadow: none;\n\n    background: linear-gradient(45deg, rgba(2,0,36,1) 0%\n    , rgba(9,9,121,1) 35%\n    , rgba(0,212,255,1) 100%);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n*/\n}\n\n\n.ahead button {\n    top: var(--dist_change);\n}\n\n.right button {\n    right: var(--dist_change);\n}\n\n\n.back button { \n    bottom: var(--dist_change);\n}\n\n.left button {\n    left: var(--dist_change);\n}\n\n.mode_title {\n    font-size: 40px;\n    font-weight: 800;\n\n    /*background-color: white !important;\n    border-radius: 20px;\n    border: 1.1px solid grey;\n    */\n    text-shadow: 0 1px #808d93,\n                -1px 0 #cdd2d5,\n                -1px 2px #808d93,\n                -2px 1px #cdd2d5;\n    \n    /*box-shadow: 0 1px black,\n                0 2px grey !important;\n    */\n    letter-spacing: 2px;\n    text-align: left;\n    font-family: 'Satisfy', cursive;\n}\n.mode_auto_title {\n    transform: translateY(-28px);\n    color: #4255f7 !important;\n}\n.mode_manual_title {\n    color: #e79800 !important;\n}\n.mode_stop_title {\n    transform: translateY(28px);\n    color: #ce0020 !important;\n}\n\n.car_control_tag {\n    font-size: 40px;\n    font-weight: 800;\n    transform: translateY(20px);\n    text-shadow: 0 1px #808d93,\n                -1px 0 #cdd2d5,\n                -1px 2px #808d93,\n                -2px 1px #cdd2d5;\n    \n    letter-spacing: 2px;\n    text-align: center;\n    vertical-align: center;\n    font-family: 'Cinzel', serif;\n}\n.mode_switching_tag {\n    color: #EEE8AA !important;\n}\n.direction_tag {\n    color: #ffb97b !important;\n}\n.speed_tag {\n    color: #ff7e4e !important;\n}\n\n.keyboard_tag {\n    font-size: 28px;\n    /*font-weight: 200;\n    */transform: translateY(-10px);\n    text-shadow: 0 1px #808d93,\n                -1px 0 #cdd2d5,\n                -1px 2px #808d93,\n                -2px 1px #cdd2d5;\n    color: #ffdfb5 !important;\n    letter-spacing: 2px;\n    text-align: center;\n    vertical-align: center;\n    font-family: 'Pacifico', cursive;\n}\n.keyboard_tag button {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    background-color: #F8F8FF !important;\n    border-radius: 10px;\n    border: 1.05px solid grey;\n    color: #3e3535 !important;\n    text-shadow: 1px 1px grey;\n    box-shadow: 0 1px black,\n                0 2px grey !important;\n\n    /* Reference: https://linuxhint.com/disable-click-event-using-css/#:~:text=html,as%20%E2%80%9Cnone%E2%80%9D%3A */\n    /* Làm cho button ko click được */\n    pointer-events: none;\n\n    visibility: visible;\n}\n</style>\n</head>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 170,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ef0396890c0f879",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Heat Index Gauge",
+        "group": "7dd935cd2eeed908",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Heat Index (°C)",
+        "label": "°C",
+        "format": "{{msg.payload | number:1}}",
+        "min": "10",
+        "max": "120",
+        "colors": [
+            "#a1f7a3",
+            "#f5f294",
+            "#f9cc6c"
+        ],
+        "seg1": "35",
+        "seg2": "50",
+        "diff": false,
+        "className": "temp_humid_gauge_title heatindex_title",
+        "x": 910,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "07572dd054fbe2ae",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Degree C Gauge",
+        "group": "7dd935cd2eeed908",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Temperature (°C)",
+        "label": "°C",
+        "format": "{{msg.payload | number:1}}",
+        "min": "-20",
+        "max": "100",
+        "colors": [
+            "#5fb0fc",
+            "#a9ff9e",
+            "#ffc35c"
+        ],
+        "seg1": "24",
+        "seg2": "32",
+        "diff": false,
+        "className": "temp_humid_gauge_title temp_title",
+        "x": 910,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "5aedfc57fe4918b1",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Humid Gauge",
+        "group": "7dd935cd2eeed908",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Humidity (%)",
+        "label": "%",
+        "format": "{{msg.payload|number:1}}",
+        "min": "-20",
+        "max": "120",
+        "colors": [
+            "#fe8686",
+            "#90e8fe",
+            "#86aafe"
+        ],
+        "seg1": "38",
+        "seg2": "82",
+        "diff": false,
+        "className": "temp_humid_gauge_title humid_title",
+        "x": 900,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "3349a9b93ce2b77b",
+        "type": "ui_chart",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Temp and Humid chart",
+        "group": "7dd935cd2eeed908",
+        "order": 4,
+        "width": 18,
+        "height": 6,
+        "label": "Temperature and Humidity Trends",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "cubic",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#94c8ff",
+            "#e87373",
+            "#f9ab6c",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "temp_humid_chart_title",
+        "x": 1200,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d37da6c28135923a",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "group": "7dd935cd2eeed908",
+        "name": "Temperature And Humidity CSS",
+        "order": 5,
+        "width": 18,
+        "height": 1,
+        "format": "<head>\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;1,400;1,700&display=swap\"\n    rel=\"stylesheet\">\n\n<link href=\"https://fonts.googleapis.com/css2?family=Pacifico&display=swap\" rel=\"stylesheet\">\n\n<style>\n\n.nr-dashboard-theme .nr-dashboard-gauge-titlel {\n    font-size: 28px;\n    font-weight: 800;\n    z-index: 1;\n}\n\n.temp_humid_gauge_title {\n    \n    text-shadow: 0 1px #808d93,\n                -1px 0 #cdd2d5,\n                -1px 2px #808d93,\n                -2px 1px #cdd2d5;\n    letter-spacing: 2px;\n\n    transform: translateY(20px);\n    text-align: center;\n\n    font-family: 'Lobster Two', cursive;\n}\n\n.humid_title {\n    color: #1D4DBC !important;\n}\n\n.temp_title {\n    color: #e57069 !important;\n}\n\n.heatindex_title {\n    color: #FF9A54 !important;\n}\n\n.nr-dashboard-theme .nr-dashboard-chart-titlel {\n    font-size: 40px;\n    font-weight: 500;\n}\n\n.temp_humid_chart_title {\n\n    transform: translateY(5px);\n    text-align: center;\n    font-family: 'Pacifico', cursive;\n    text-shadow: 0 1px #808d93,\n    -1px 0 #cdd2d5,\n    -1px 2px #808d93,\n    -2px 1px #cdd2d5;\n    letter-spacing: 1px;\n    color: #ffffbb !important;\n}\n\n<\\style>\n<\\head>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1150,
+        "y": 820,
+        "wires": [
+            []
+        ],
+        "outputLabels": [
+            "msg"
+        ]
+    },
+    {
+        "id": "45c7157b6a5f42a2",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "d": true,
+        "g": "16e95202e45e2966",
+        "name": "LPG",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "10000 + 10000 * ( 0.99*($random()-0.5))",
+        "payloadType": "jsonata",
+        "x": 450,
+        "y": 1580,
+        "wires": [
+            [
+                "8b744e34a6c09645"
+            ]
+        ]
+    },
+    {
+        "id": "8b744e34a6c09645",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timestamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "LPG",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "deviceID",
+                "pt": "msg",
+                "to": "($env(\"deviceID\") = \"\") ? \"Simulated\" : $env(\"deviceID\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_high_lpg",
+                "pt": "msg",
+                "to": "(msg.payload > 1500) ? true : false",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1580,
+        "wires": [
+            [
+                "709ce8ebd4ec6e06",
+                "bc3d1da38c7142f1",
+                "c0d672dcf27c1d69"
+            ]
+        ]
+    },
+    {
+        "id": "709ce8ebd4ec6e06",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "LPG Gauge",
+        "group": "b03d05eab4f8dc98",
+        "order": 1,
+        "width": 6,
+        "height": 5,
+        "gtype": "donut",
+        "title": "LPG (ppm)",
+        "label": "ppm",
+        "format": "{{msg.payload|number:1}}",
+        "min": "0",
+        "max": "4000",
+        "colors": [
+            "#f6cdfe",
+            "#ecd769",
+            "#fb6150"
+        ],
+        "seg1": "1500",
+        "seg2": "2500",
+        "diff": false,
+        "className": "gas_gauge_title lpg_title",
+        "x": 850,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "dda2b5f104da9c15",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "d": true,
+        "g": "16e95202e45e2966",
+        "name": "CO",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "4",
+        "topic": "",
+        "payload": "600  + 600  * ( 0.99*($random()-0.5))",
+        "payloadType": "jsonata",
+        "x": 450,
+        "y": 1760,
+        "wires": [
+            [
+                "d4fd1dd524e967f6"
+            ]
+        ]
+    },
+    {
+        "id": "d4fd1dd524e967f6",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timestamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CO",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "deviceID",
+                "pt": "msg",
+                "to": "($env(\"deviceID\") = \"\") ? \"Simulated\" : $env(\"deviceID\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_high_co",
+                "pt": "msg",
+                "to": "(msg.payload > 800) ? true : false",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1760,
+        "wires": [
+            [
+                "688b79904e024b47",
+                "bc3d1da38c7142f1",
+                "df836dc02e5cdeca"
+            ]
+        ]
+    },
+    {
+        "id": "688b79904e024b47",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "CO Gauge",
+        "group": "b03d05eab4f8dc98",
+        "order": 2,
+        "width": 6,
+        "height": 5,
+        "gtype": "donut",
+        "title": "CO (ppm)",
+        "label": "ppm",
+        "format": "{{msg.payload|number:1}}",
+        "min": "0",
+        "max": "4000",
+        "colors": [
+            "#c0b8ff",
+            "#f08ee3",
+            "#f93e6d"
+        ],
+        "seg1": "800",
+        "seg2": "2000",
+        "diff": false,
+        "className": "gas_gauge_title co_title",
+        "x": 850,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "c967b1215068c97c",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "d": true,
+        "g": "16e95202e45e2966",
+        "name": "Smoke",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "6",
+        "topic": "",
+        "payload": "1200  + 1200  * ( 0.99*($random()-0.5))",
+        "payloadType": "jsonata",
+        "x": 460,
+        "y": 1940,
+        "wires": [
+            [
+                "9e1b1625513c1232"
+            ]
+        ]
+    },
+    {
+        "id": "9e1b1625513c1232",
+        "type": "change",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Format",
+        "rules": [
+            {
+                "t": "set",
+                "p": "timestamp",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Smoke",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "deviceID",
+                "pt": "msg",
+                "to": "($env(\"deviceID\") = \"\") ? \"Simulated\" : $env(\"deviceID\")",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "alert_high_smoke",
+                "pt": "msg",
+                "to": "(msg.payload > 1500) ? true : false",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1940,
+        "wires": [
+            [
+                "3e5d03f1e4fca6a9",
+                "bc3d1da38c7142f1",
+                "60ce997a8140bbc6"
+            ]
+        ]
+    },
+    {
+        "id": "3e5d03f1e4fca6a9",
+        "type": "ui_gauge",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Smoke Gauge",
+        "group": "b03d05eab4f8dc98",
+        "order": 3,
+        "width": 6,
+        "height": 5,
+        "gtype": "donut",
+        "title": "Smoke (ppm)",
+        "label": "ppm",
+        "format": "{{msg.payload|number:1}}",
+        "min": "0",
+        "max": "5000",
+        "colors": [
+            "#c8fee7",
+            "#d4e67a",
+            "#ea5339"
+        ],
+        "seg1": "1500",
+        "seg2": "2500",
+        "diff": false,
+        "className": "gas_gauge_title smoke_title",
+        "x": 860,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "bc3d1da38c7142f1",
+        "type": "ui_chart",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Gas Concentration chart",
+        "group": "b03d05eab4f8dc98",
+        "order": 4,
+        "width": 18,
+        "height": 6,
+        "label": "Gas Concentration Trends",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#f9bedd",
+            "#c7c9ff",
+            "#89fbd9",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "gas_chart_title",
+        "x": 1130,
+        "y": 1680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1d6ed97db184a91",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "group": "b03d05eab4f8dc98",
+        "name": "Gas Concentration CSS",
+        "order": 5,
+        "width": 18,
+        "height": 1,
+        "format": "<head>\n<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap\" rel=\"stylesheet\">\n<link href=\"https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,900&display=swap\" rel=\"stylesheet\">\n\n<style>\n\n.gas_gauge_title {\n    text-shadow: 0 1px #808d93,\n                -1px 0 #cdd2d5,\n                -1px 2px #808d93,\n                -2px 1px #cdd2d5;\n    letter-spacing: 2px;\n    transform: translateY(5px);\n    text-align: center;\n    font-family: 'Almendra SC', serif;\n}\n\n.lpg_title {\n    color: #ff5b71 !important;\n}\n\n.co_title {\n    color: #5556e8 !important;\n}\n\n.smoke_title {\n    color: #61ffc6 !important;\n}\n\n.gas_chart_title {\n    transform: translateY(15px);\n    text-align: center;\n    font-family: 'Playfair Display SC', serif;\n    text-shadow: 0 1px #808d93,\n                -1px 0 #cdd2d5,\n                -1px 2px #808d93,\n                -2px 1px #cdd2d5;\n    letter-spacing: 1px;\n    color: #ffffbb !important;\n}\n\n<\\style>\n<\\head>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1230,
+        "y": 1500,
+        "wires": [
+            []
+        ],
+        "outputLabels": [
+            "msg"
+        ]
+    },
+    {
+        "id": "d107021aa67830f1",
+        "type": "comment",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Mode",
+        "info": "",
+        "x": 150,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "ea8f1c1c184e31d5",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "name": "Speed Controller",
+        "order": 11,
+        "width": 3,
+        "height": 8,
+        "format": "\n<style>\n/* Your CSS code here */\n.wrapper {\n    width:100px;\n    height:400px;\n\n    max-width: 100%;\n    padding: 0 20px;\n    display:flex;\n}\n\n.speed {\n    background:#efefef;\n    flex:1;\n    display:flex;\n    align-items:flex-end;\n    margin: 0 10px;\n    border: 2px solid #FFD6A5 !important;\n    border-radius:20px;\n    box-shadow:0 0 1px 3px rgba(0,0,0,0.1);\n    overflow: hidden;\n    transition-duration: 0.2s;\n}\n.speedbar {\n    color: white;\n    font-family: sans-serif;\n    font-size: 24px;\n    font-weight: bold;\n    cursor: ns-resize;\n    width:100%;\n    \n    background: rgb(255,201,0);\n    background: linear-gradient(50deg, rgba(255,201,0,1) 0%\n    , rgba(255,196,0,1) 15%, rgba(255,173,0,1) 30%\n    , rgba(255,149,0,1) 45%, rgba(255,121,0,1) 60%\n    , rgba(255,98,0,1) 80%, rgba(255,89,0,1) 90%\n    , rgba(255,70,0,1) 100%);\n    \n    text-shadow:1px 1px 0 rgba(0,0,0,0.2);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 10px 2px;\n    cursor:\n        color:white;\n        height:10%;\n}\n</style>\n\n<script>\n    // Your JavaScript code here\n    // Reference: https://flows.nodered.org/flow/02c51764b0454f8c3e77bcfe5c87dda5\n(function($scope) {\n\n    function calculateSpeed(borderTop, borderBottom, clientY) {\n        // get border's height from top and bottom position\n        const borderHeight = borderBottom - borderTop;\n        \n        // get the current vertical position of client on the bar\n        const relativeY = borderBottom - clientY;\n        \n        // make it into a percentage\n        const percent = relativeY / borderHeight;\n        \n        // set min and max values\n        const [min, max] = [0.5, 3];\n        \n        // round the decimal percent value to get a whole percentage\n        const height = Math.round(percent * 100) + '%';\n        \n        // make sure that the max and min percentage of the rate will be resp. 0.5 and 3,\n        const rate = percent * (max - min) + min;\n        \n        return { \"height\": height, \"rate\":rate };\n    }\n\n/*\n    $('#imgmap').on('touchstart touchmove',function(e) {\n        e.preventDefault();\n        const map = document.getElementById(\"imgmap\");\n        let rect = map.getBoundingClientRect();\n        let xCoordinate = ((e.touches[0].clientX - rect.left) / (rect.right- rect.left)).toFixed(4);\n        let yCoordinate = ((e.touches[0].clientY - rect.top) /  (rect.bottom - rect.top)).toFixed(4);\n        if (xCoordinate < 1 && xCoordinate> 0 && yCoordinate < 1 && yCoordinate> 0) {\n            $(\"#coords\").text( \"X: \" + xCoordinate + \", Y: \" + yCoordinate);\n            $(\"#imgcursor\").css( \"left\", (e.touches[0].clientX - rect.left) - 20 ); // offset to half of the cursor's width\n            $(\"#imgcursor\").css( \"top\", (e.touches[0].clientY - rect.top) - 20 ); // offset to half of the cursor's height\n            $scope.send({\"payload\":{\"coordX\": xCoordinate, \"coordY\": yCoordinate}});\n        }\n    });\n*/\n\n    $('#speed').on('mousemove mousedown mouseup',function(e) {\n        e.preventDefault();\n        const speedBorder = document.getElementById(\"speed\");\n        let rect = speedBorder.getBoundingClientRect();\n        //$scope.send({\"payload\":{\"rect\": rect}});\n\n        // Check mouse cursor inside speed's border\n        // e.buttons = 0: auto move corresponding to cursor\n        // e.buttons = 1: press left button to move\n        if (rect.left <= e.clientX && e.clientX <= rect.right \n        && rect.top <= e.clientY && e.clientY <= rect.bottom\n        && e.buttons == 1) {\n            const {height, rate} = calculateSpeed(rect.top, rect.bottom, e.clientY);\n\n            // update ui in speedbar\n            const speedBar = document.getElementById(\"speedbar\");\n            speedBar.style.height = height;\n            speedBar.textContent = rate.toFixed(2) + 'x';\n\n            // return current rate\n            $scope.send({\"payload\": rate});\n        }\n    });\n\n})(scope);\n\n</script>\n<div class=\"wrapper\">\n    <div class=\"js-speed speed\" id=\"speed\">\n        <div class=\"speedbar\" id=\"speedbar\">1×</div>\n    </div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 190,
+        "y": 2860,
+        "wires": [
+            [
+                "9cb3dcfdda8527e7",
+                "1b994175815a891e"
+            ]
+        ]
+    },
+    {
+        "id": "9cb3dcfdda8527e7",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "f1c5562cc2f012b9",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "order": 2,
+        "width": 9,
+        "height": 2,
+        "name": "",
+        "label": "Direction",
+        "format": "",
+        "layout": "col-center",
+        "className": "car_control_tag direction_tag",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "13bb9b045253925d",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "name": "",
+        "label": "Speed",
+        "format": "",
+        "layout": "col-center",
+        "className": "car_control_tag speed_tag",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 150,
+        "y": 2900,
+        "wires": []
+    },
+    {
+        "id": "cf635beb95c3942f",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "name": "Mode Switching CSS",
+        "order": 4,
+        "width": 3,
+        "height": 6,
+        "format": "<header>\n<style>\n    .toggle-wrapper {\n        height: 40px;\n        width: 60px;\n        padding: 10px;\n        scale: 1.6;\n        left: 40px;\n        top: 24px;\n        margin-bottom: 20px;\n\n        display: inline-block;\n        position: relative;\n        border-radius: 3.125em;\n        overflow: hidden;\n    }\n\n    .toggle-checkbox {\n        -webkit-appearance: none;\n        appearance: none;\n        position: absolute;\n        z-index: 1;\n        top: 0;\n        left: 0;\n        border-radius: inherit;\n        width: 100%;\n        height: 100%;\n        cursor: pointer;\n    }\n\n    .toggle-container {\n        display: flex;\n        position: relative;\n        border-radius: inherit;\n        width: 2.5em;\n        height: 1.25em;\n        background-color: #d1d4dc;\n        box-shadow: inset .0625em 0 0 #d4d2de,\n            inset -.0625em 0 0 #d4d2de,\n            inset .125em .25em .125em .25em #b5b5c3;\n        mask-image: radial-gradient(#fff, #000);\n        transition: all .4s;\n\n        .toggle-wrapper.red>.toggle-checkbox:checked+& {\n            background-color: #f5233c;\n            box-shadow: inset .0625em 0 0 #f5233c,\n                inset -.0625em 0 0 #f5233c,\n                inset .125em .25em .125em .25em #d70026;\n        }\n\n        .toggle-wrapper.yellow>.toggle-checkbox:checked+& {\n            background-color: #fbc433;\n            box-shadow: inset .0625em 0 0 #fbc433,\n                inset -.0625em 0 0 #fbc433,\n                inset .125em .25em .125em .25em #ee9902;\n        }\n\n        .toggle-wrapper.blue>.toggle-checkbox:checked+& {\n            background-color: #4588ff;\n            box-shadow: inset .0625em 0 0 #4588ff,\n                inset -.0625em 0 0 #4588ff,\n                inset .125em .25em .125em .25em #3952f3;\n        }\n    }\n\n    .toggle-ball {\n        position: relative;\n        border-radius: 50%;\n        width: 1.25em;\n        height: 1.25em;\n        background-image: radial-gradient(rgba(#fff, .6), rgba(#fff, 0) 16%),\n            radial-gradient(#d2d4dc, #babac2);\n        background-position: -.25em -.25em;\n        background-size: auto, calc(100% + .25em) calc(100% + .25em);\n        background-repeat: no-repeat;\n        box-shadow: .25em .25em .25em #8d889e,\n            inset .0625em .0625em .25em #d1d1d6,\n            inset -.0625em -.0625em .25em #8c869e;\n        transition: transform .4s, box-shadow .4s;\n\n        &::after {\n            content: '';\n            position: absolute;\n            top: 0;\n            left: 0;\n            border-radius: 50%;\n            width: 100%;\n            height: 100%;\n            background-position: -.25em -.25em;\n            background-size: auto, calc(100% + .25em) calc(100% + .25em);\n            background-repeat: no-repeat;\n            opacity: 0;\n            transition: opacity .4s;\n\n            .toggle-wrapper.red>.toggle-container>& {\n                background-image: radial-gradient(rgba(#fff, .6), rgba(#fff, 0) 16%),\n                    radial-gradient(#ff2751, #e0022f);\n                box-shadow: .25em .25em .25em #b70033,\n                    inset .0625em .0625em .25em #fe7d7e,\n                    inset -.0625em -.0625em .25em #870002;\n            }\n\n            .toggle-wrapper.yellow>.toggle-container>& {\n                background-image: radial-gradient(rgba(#fff, .6), rgba(#fff, 0) 16%),\n                    radial-gradient(#f5d05f, #d67f1b);\n                box-shadow: .25em .25em .25em #bc6d00,\n                    inset .0625em .0625em .25em #fff27a,\n                    inset -.0625em -.0625em .25em #9f3901;\n            }\n\n            .toggle-wrapper.blue>.toggle-container>& {\n                background-image: radial-gradient(rgba(#fff, .6), rgba(#fff, 0) 16%),\n                    radial-gradient(#419efe, #4ba2ff);\n                box-shadow: .25em .25em .25em #2634d0,\n                    inset .0625em .0625em .25em #8dd5ff,\n                    inset -.0625em -.0625em .25em #1500ac;\n            }\n        }\n\n        .toggle-wrapper>.toggle-checkbox:checked+.toggle-container>&::after {\n            opacity: 1;\n        }\n\n        .toggle-checkbox:checked+.toggle-container>& {\n            transform: translateX(100%);\n        }\n    }\n</style>\n</header>\n\n\n<script>\n\n(function($scope) {\n    $scope.lastRunningMode = -1;\n\n    switch1 = document.getElementById(\"switch1\");\n    switch2 = document.getElementById(\"switch2\");\n    switch3 = document.getElementById(\"switch3\");\n\n    // Khi mới khởi động, mặc định bật switch 3\n    if ($scope.lastRunningMode == -1) {\n        switch3.checked = true;\n        $scope.send({\"payload\": \"stop\", \"topic\": \"ready\"});\n    }\n\n    $('#switch1').on('change',function(e) {\n        e.preventDefault();\n        // Nếu switch1 bật thì tắt 2 switch còn lại\n        if (switch1.checked) {\n            switch2.checked = false;\n            switch3.checked = false;\n            $scope.lastRunningMode = 1; // lưu trạng thái hoạt động gần nhất\n            \n            // Trả về mode đang bật\n            $scope.send({\"payload\": \"auto\"});\n        }\n        // Nếu tắt switch 1 và switch 2 cũng tắt -> bật switch 3\n        else if (switch2.checked == false) {\n            switch3.checked = true;\n            $scope.send({\"payload\": \"stop\"});\n        }\n    });\n\n    $('#switch2').on('change',function(e) {\n        e.preventDefault();\n        // Nếu switch2 bật thì tắt 2 switch còn lại\n        if (switch2.checked) {\n            switch1.checked = false;\n            switch3.checked = false;\n            $scope.lastRunningMode = 2; // lưu trạng thái hoạt động gần nhất\n\n            // Trả về mode đang bật\n            $scope.send({\"payload\": \"manual\"});\n        }\n        // Nếu tắt switch 2 và switch 1 cũng tắt -> bật switch 3\n        else if (switch1.checked == false) {\n            switch3.checked = true;\n            $scope.send({\"payload\": \"stop\"});\n        }\n    });\n\n    $('#switch3').on('change',function(e) {\n        e.preventDefault();\n        // Nếu bật switch 3 -> tắt 2 switch còn lại\n        if (switch3.checked) {\n            switch1.checked = false;\n            switch2.checked = false;\n\n            // Trả về mode đang bật\n            $scope.send({\"payload\": \"stop\"});\n        } \n        // Nếu tắt switch 3, bật switch hoạt động trước đó\n        else {\n            if ($scope.lastRunningMode == 1) {\n                switch1.checked = true;\n                $scope.send({\"payload\": \"auto\"});\n            } else if ($scope.lastRunningMode == 2) {\n                switch2.checked = true;\n                $scope.send({\"payload\": \"manual\"});\n            } else { // Nếu không có switch nào bật trước đó \n                     // -> mặc định bật switch 1\n                switch1.checked = true;\n                $scope.send({\"payload\": \"auto\"});\n            }\n        }\n    });\n\n})(scope);\n\n</script>\n\n<div class=\"toggle-wrapper blue\">\n    <input class=\"toggle-checkbox\" type=\"checkbox\" id='switch1'>\n    <div class=\"toggle-container\">\n        <div class=\"toggle-ball\"></div>\n    </div>\n</div>\n\n<div class=\"toggle-wrapper yellow\">\n    <input class=\"toggle-checkbox\" type=\"checkbox\" id='switch2'>\n    <div class=\"toggle-container\">\n        <div class=\"toggle-ball\"></div>\n    </div>\n</div>\n\n<div class=\"toggle-wrapper red\">\n    <input class=\"toggle-checkbox\" type=\"checkbox\" id='switch3'>\n    <div class=\"toggle-container\">\n        <div class=\"toggle-ball\"></div>\n    </div>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 2360,
+        "wires": [
+            [
+                "eaf5137197d64d34",
+                "509d0c17bdff344c"
+            ]
+        ],
+        "outputLabels": [
+            "msg"
+        ]
+    },
+    {
+        "id": "e53848411026fe14",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "name": "",
+        "label": "Mode Switching",
+        "format": "",
+        "layout": "col-center",
+        "className": "car_control_tag mode_switching_tag",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 180,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "a273c54a83fd6b1f",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "name": "Automatic Navigation",
+        "label": "Auto",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "mode_title mode_auto_title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 400,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "c8a306698a2e776d",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "name": "Manual Control",
+        "label": "Manual",
+        "format": "",
+        "layout": "row-left",
+        "className": "mode_title mode_manual_title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 620,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "b0025355e571df21",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Stop",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "mode_title mode_stop_title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 790,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "5b61896d7a740f4c",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "81093c9dbc487b42",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "name": "Detect Keypress",
+        "order": 38,
+        "width": 4,
+        "height": 1,
+        "format": "<script>\n    (function($scope) {\n    document.onkeydown = function (e) {\n        let msg = {\"payload\": e.key.toLowerCase(),  \"topic\": \"keydown\"};\n        $scope.send(msg);\n    };\n    \n    document.onkeyup = function (e) {\n        let msg = {\"payload\": e.key.toLowerCase(), \"topic\": \"keyup\"};\n        $scope.send(msg);\n    };\n})(scope);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 180,
+        "y": 2580,
+        "wires": [
+            [
+                "35604768cf5f159f"
+            ]
+        ]
+    },
+    {
+        "id": "35604768cf5f159f",
+        "type": "switch",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Keydown value",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "keydown",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 2640,
+        "wires": [
+            [
+                "aba498bb53e66a0a"
+            ]
+        ]
+    },
+    {
+        "id": "aba498bb53e66a0a",
+        "type": "switch",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Key-2-Dir",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "w",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "a",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "s",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "d",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 520,
+        "y": 2640,
+        "wires": [
+            [
+                "0d8caface57161ea"
+            ],
+            [
+                "c33287f12a73cd31"
+            ],
+            [
+                "a9f1c933861a5ace"
+            ],
+            [
+                "d24b83a37787ab2c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ea4135a50f9b6112",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 2660,
+        "wires": []
+    },
+    {
+        "id": "1f0df7d1050febdd",
+        "type": "comment",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "keyup -> nhận 1 lần, keydown -> nhận nhiều lần",
+        "info": "",
+        "x": 260,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "5942e3f807f2d4e0",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "group": "2a89fb107fed3567",
+        "order": 23,
+        "width": 6,
+        "height": 1,
+        "name": "car_control_tag",
+        "label": "Movement Controls",
+        "format": "",
+        "layout": "row-left",
+        "className": "keyboard_tag ",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 360,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "fd90eba1138901d9",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "",
+        "group": "2a89fb107fed3567",
+        "order": 28,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "W",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "keyboard_tag",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37df06900ca0788c",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "",
+        "group": "2a89fb107fed3567",
+        "order": 34,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "A",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "keyboard_tag",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 670,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd2c121f5414d3a5",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "",
+        "group": "2a89fb107fed3567",
+        "order": 35,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "S",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "keyboard_tag",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 810,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8cf9a4327239fa44",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "",
+        "group": "2a89fb107fed3567",
+        "order": 36,
+        "width": 1,
+        "height": 1,
+        "passthru": false,
+        "label": "D",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "keyboard_tag",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 950,
+        "y": 3060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ca243ff5e69a98f",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7ed06cbb24a9d394",
+        "group": "c1e6de0d4d0c97f8",
+        "name": "CSS for text",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "format": "<head>\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong\">\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n  <link href=\"https://fonts.googleapis.com/css2?family=Nabla&display=swap\" rel=\"stylesheet\">\n  \n<style>\n\n.title {\n  font-size: 80px;\n  font-weight: 800;\n  z-index: 1;\n  letter-spacing: 2px;\n  /*border-left: 6px solid blue;\n  */text-align: center;\n  font-family: 'Nabla', cursive;\n}\n.shadow10 {\n  color: yellow !important;\n  text-shadow: 1px 1px 2px rgba(0,0,0,0.7),\n              5px 5px 1px orange,\n              6px 6px 2px rgba(0,0,0,0.7),\n              10px 10px 1px red,\n              11px 11px 2px rgba(0,0,0,0.7),\n              15px 15px 1px purple,\n              16px 16px 2px rgba(0,0,0,0.7);\n  -webkit-animation: text-snake 1s infinite alternate;\n  -moz-animation: text-snake 1s infinite alternate;\n  -ms-animation: text-snake 1s infinite alternate;\n  animation: text-snake 1s infinite alternate;\n}\n\n/* other prefixed animation blocks ommitted for brevity */\n@keyframes text-snake {\n  from {\n  text-shadow: 1px 1px 2px rgba(0,0,0,0.7),\n                5px 5px 1px orange,\n                6px 6px 2px rgba(0,0,0,0.7),\n                10px 10px 1px red,\n                11px 11px 2px rgba(0,0,0,0.7),\n                15px 15px 1px purple,\n                16px 16px 2px rgba(0,0,0,0.7);\n  }\n  to {\n  text-shadow: -1px 1px 2px rgba(0,0,0,0.7),\n              -5px 5px 1px orange,\n              -6px 6px 2px rgba(0,0,0,0.7),\n              -10px 10px 1px red,\n              -11px 11px 2px rgba(0,0,0,0.7),\n              -15px 15px 1px purple,\n              -16px 16px 2px rgba(0,0,0,0.7);\n  }\n}\n.save button:hover {\n  background-color: green !important; \n  color: black !important;\n}\n.save button  {\n  border: none;\n  border-radius: 8px;\n  text-align: center;\n  width: 50% ;\n  transition-duration: 0.4s;\n  background-color: #ddffdd;\n  color: white;         \n}\n\n.time_title {\n  font-size: 22px;\n  text-align: center;\n  font-weight: bold;\n  font-family: georgia, serif;\n  color: #FCF5CA !important;\n  text-shadow: 0.6px 0.6px 1.2px #C1ECE4,\n               1.2px 1.2px 2.4px #0D7377;\n}\n\n</style>\n</head>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 330,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b4a78010af069b76",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7ed06cbb24a9d394",
+        "group": "c1e6de0d4d0c97f8",
+        "name": "CSS-Basics-For-Dashboard",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "format": "<head>\n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong\">\n    <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>\n    \n<style>\n    root,\n    a,\n    button,\n    p,\n    div {\n        -webkit-user-select: none !important;\n    }\n\n    body {\n/*      background-image: url(\"/image/background.jpg\");\n        background: linear-gradient(120deg, rgba(40, 42, 49, 1.0) 40%, rgba(47, 49, 56, 1.0) 80%) !important;\n        background-size: cover !important;\n*/        background: transparent !important;\n\n        background: -webkit-linear-gradient(55deg,\n                #009785 0%,\n                #245aa5 100%) !important;\n\n        -webkit-touch-callout: none !important;\n        color: #ffffff !important;\n        padding-top: 5px !important;\n    }\n    h1 {color:transparent;}\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF;\n    }\n\n    ui-card-panel {\n        background-color: rgba(250, 250, 250, 0.3) !important;\n        border: none !important;\n        border-radius: 10px !important;\n        font-size: 24px;\n        font-family: \"Audiowide\", sans-serif;\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel>div>md-card {\n        background: none !important;\n    }\n\n    ui-card-panel>div.nr-dashboard-cardpanel button {\n    }\n\n    md-toolbar {\n        background: none !important;\n    }\n\n    md-sidenav {\n        background: linear-gradient(120deg, rgba(40, 42, 49, 0.90) 20%, rgba(47, 49, 56, 0.90) 80%) !important;\n    }\n\n    .md-button {\n        border-radius: 10px;\n        /*\n        display: none !important;\n        visibility: hidden;\n        */\n        visibility: hidden;\n    }\n    \n</style>\n\n</head>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 380,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bad686205e2319cb",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7ed06cbb24a9d394",
+        "group": "c1e6de0d4d0c97f8",
+        "name": "Dashboard style",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "format": "<style>\n    ui-card-panel {\n        box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;\n        border-radius: 5px;\n    }\n\n    ui-card-panel * {\n        border-radius: 2.5px;\n    }\n\n    .nr-dashboard-cardtitle {\n        text-align: center;\n        font-weight: bold;\n        text-transform: uppercase;\n\n        text-shadow: 0.8px 0.8px 2px #F4EEFF, \n                     2px 2px 4px #865DFF;\n        color: #d3eaf2 !important;\n    }\n    .nr-dashboard-cardtitle:hover {\n    }\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f16792203995a17c",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7ed06cbb24a9d394",
+        "group": "c1e6de0d4d0c97f8",
+        "name": "Heading Title",
+        "order": 2,
+        "width": 14,
+        "height": 4,
+        "format": "<header>\n<style>\n/* Reference: https://codepen.io/freedommayer/pen/zYmodrQ */\n:root {\n    --x: -8px;\n    --y: -8px;\n}\n\n#text {\n    color: #fff;\n    font-family: 'Glory', sans-serif;\n    font-size: 120px;\n    font-weight: 800;\n    letter-spacing: 4px;\n    text-shadow: calc(var(--x) * -1) calc(var(--y) * -1) 0px #ff92ee,\n                calc(var(--x) * -2) calc(var(--y) * -2) 0px #fa6cff,\n                calc(var(--x) * -3) calc(var(--y) * -3) 0px #d81dc4;\n\n    z-index: 1;\n    text-align: center;\n}\n/*\nbody {\n    align-items: center;\n    background-color: #1c0b54;\n    display: flex;\n    justify-content: center;\n    min-height: 100vh;\n    text-align: center;\n}\n*/\n</style>\n</header>\n\n<script>\n(function($scope) {\n    $scope.xValue = 0;\n    $scope.yValue = 0;\n\n    $scope.updateShadow = function(event) {\n    const range = 16;\n    const x = Math.round(event.pageX * range / window.innerWidth) - range / 2;\n    const y = Math.round(event.pageY * range / window.innerHeight) - range / 2;\n\n    $scope.xValue = x;\n    $scope.yValue = y;\n\n    $scope.$apply();\n    };\n\n    document.body.addEventListener('mousemove', $scope.updateShadow);\n})(scope);\n\n</script>\n\n<div id=\"text\" ng-style=\"{ '--x': xValue + 'px', '--y': yValue + 'px' }\">NaVi-001</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "931dfa09f4308b1f",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "Home",
+        "group": "7ce03692fd4753e3",
+        "order": 3,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "navigation-button home-button",
+        "icon": "fa-home",
+        "payload": "{\"tab\": \"Home-admin\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1110,
+        "y": 180,
+        "wires": [
+            [
+                "ac6347212ddf42dc",
+                "ce78e3603a1cbf26"
+            ]
+        ]
+    },
+    {
+        "id": "3908fef77614f8da",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "Logout",
+        "group": "7ce03692fd4753e3",
+        "order": 5,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "navigation-button logout-button",
+        "icon": "fa-sign-out ",
+        "payload": "{\"tab\": \"Login\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1110,
+        "y": 260,
+        "wires": [
+            [
+                "04c56c25554c5b1f"
+            ]
+        ]
+    },
+    {
+        "id": "115155e7a4bf8352",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "group": "7ce03692fd4753e3",
+        "name": "Navigation And Download CSS",
+        "order": 15,
+        "width": 6,
+        "height": 1,
+        "format": "<head>\n<style>\n    :root {\n        --border_rad: 12px;\n        --pad_value: 5px;\n    }\n\n    .navigation-title {\n        transform: translateY(20px);\n        text-align: center;\n        font-family: 'Allerta Stencil';\n        font-size: 30px;\n        color: #E8F6EF !important;\n        text-shadow: -1px 0 #8294C4, 0 -1px #ACB1D6,\n                    0 1px #8294C4, 1px 0 #ACB1D6;\n    }\n\n    .navigation-button button {\n        width: 100%;\n        scale: 0.9;\n        top: 12px;\n        /*\n        transform: scaleY(2);\n        */\n        text-align: center;\n        text-decoration: none;\n        border: 2px solid #008000 !important;\n        border-radius: 50%;\n        transition-duration: 0.4s;\n        \n        font-family: 'Allerta Stencil';\n        font-size: 60px;\n\n        background-color: none !important;\n        background-color: rgba(50,205,50,0.7) !important;\n        color: #E8F6EF !important;\n        text-shadow: -1px 0 #8294C4, 0 -1px #ACB1D6,\n                      0 1px #8294C4, 1px 0 #ACB1D6;\n\n        box-shadow: 0 10px #8c8c8c !important;\n\n        visibility: visible;\n    }\n    .navigation-button button:active {\n        transform: translateY(5px);\n        box-shadow: 0 5px #666 !important;\n        transition-duration: 0.4s;\n    }\n\n    .home-button button {\n        left: 22px;\n    }\n    .home-button button:hover {\n        transition-duration: 0.2s;\n        background-color: #008000 !important;\n        border: 2px solid #008000 !important;\n    }\n\n    .logout-button button {\n        left: 24px;\n        border: 2px solid #CD1818 !important;\n        background-color: rgba(250, 95, 85,0.85) !important;\n    }\n    .logout-button button:hover {\n        transition-duration: 0.2s;\n        background-color: #CD1818 !important;\n        border: 2px solid #CD1818 !important;\n    }\n\n    .save-button button {\n        border: 2px solid #2E2EFF !important;\n        background-color: #2c55ffe6 !important;\n    }\n    .save-button button:hover {\n        transition-duration: 0.2s;\n        background-color: #2E2EFF !important;\n        border: 2px solid #2E2EFF !important;\n    }\n\n\n<\\style>\n<\\head>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1530,
+        "y": 100,
+        "wires": [
+            []
+        ],
+        "outputLabels": [
+            "msg"
+        ]
+    },
+    {
+        "id": "ac6347212ddf42dc",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ce78e3603a1cbf26",
+        "type": "ui_ui_control",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "",
+        "events": "all",
+        "x": 1300,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04c56c25554c5b1f",
+        "type": "ui_ui_control",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "",
+        "events": "all",
+        "x": 1300,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "396873e8d7e4a2ea",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "group": "7ce03692fd4753e3",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Home",
+        "format": "",
+        "layout": "col-center",
+        "className": "navigation-title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 990,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6e83cde96e28c00e",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "group": "7ce03692fd4753e3",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Logout ",
+        "format": "",
+        "layout": "col-center",
+        "className": "navigation-title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 990,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f6800b8acf0b83fa",
+        "type": "comment",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "Navigation And Util Buttons ",
+        "info": "",
+        "x": 1050,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "31bc9493808c2d54",
+        "type": "firebase.on",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/dht-sensor/humidity",
+        "atStart": true,
+        "eventType": "child_added",
+        "queries": [],
+        "x": 420,
+        "y": 860,
+        "wires": [
+            [
+                "762ed6d68b4fd934"
+            ]
+        ]
+    },
+    {
+        "id": "7ed66a016177fcd7",
+        "type": "firebase.on",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/dht-sensor/temperature",
+        "atStart": true,
+        "eventType": "child_added",
+        "queries": [],
+        "x": 410,
+        "y": 1060,
+        "wires": [
+            [
+                "97a45e4e164b7a7d"
+            ]
+        ]
+    },
+    {
+        "id": "fe5402125c4cda08",
+        "type": "firebase.on",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/dht-sensor/heat-index",
+        "atStart": true,
+        "eventType": "child_added",
+        "queries": [],
+        "x": 410,
+        "y": 1280,
+        "wires": [
+            [
+                "cc902911dceab8f7"
+            ]
+        ]
+    },
+    {
+        "id": "52d99c981d818510",
+        "type": "firebase.on",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/mq-sensor/lpg",
+        "atStart": true,
+        "eventType": "child_added",
+        "queries": [],
+        "x": 400,
+        "y": 1540,
+        "wires": [
+            [
+                "8b744e34a6c09645"
+            ]
+        ]
+    },
+    {
+        "id": "ef239b235c0aeeb1",
+        "type": "firebase.on",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/mq-sensor/co",
+        "atStart": true,
+        "eventType": "child_added",
+        "queries": [],
+        "x": 400,
+        "y": 1720,
+        "wires": [
+            [
+                "d4fd1dd524e967f6"
+            ]
+        ]
+    },
+    {
+        "id": "5c17abc4e3d99b4b",
+        "type": "firebase.on",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/mq-sensor/smoke",
+        "atStart": true,
+        "eventType": "child_added",
+        "queries": [],
+        "x": 390,
+        "y": 1900,
+        "wires": [
+            [
+                "9e1b1625513c1232"
+            ]
+        ]
+    },
+    {
+        "id": "eaf5137197d64d34",
+        "type": "firebase modify",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/car-control/mode",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 660,
+        "y": 2300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61cdfb5b40aaf2e8",
+        "type": "comment",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Direction",
+        "info": "",
+        "x": 160,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "994ba554c9e905b8",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Do nothing",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 2640,
+        "wires": [
+            [
+                "ce81ed225d759c1a",
+                "ea4135a50f9b6112"
+            ]
+        ]
+    },
+    {
+        "id": "ce81ed225d759c1a",
+        "type": "firebase modify",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/car-control/direction",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 1350,
+        "y": 2600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "704fa8f9a335d76f",
+        "type": "comment",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Speed",
+        "info": "",
+        "x": 150,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "1b994175815a891e",
+        "type": "firebase modify",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/car-control/speed",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 640,
+        "y": 2820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "152354e7ea2956c2",
+        "type": "comment",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Car Control Tag",
+        "info": "",
+        "x": 180,
+        "y": 3020,
+        "wires": []
+    },
+    {
+        "id": "581d65855e4fd176",
+        "type": "firebase.on",
+        "z": "9b30030f667a40d7",
+        "g": "3b0f026892bd01fb",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001/pir-sensor",
+        "atStart": true,
+        "eventType": "child_added",
+        "queries": [],
+        "x": 370,
+        "y": 2120,
+        "wires": [
+            [
+                "0db9f0deb01d0b2a"
+            ]
+        ]
+    },
+    {
+        "id": "7e6b77f5e251b123",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "3b0f026892bd01fb",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "5322b7e005a9399b",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Too high",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "98.896254134",
+        "payloadType": "num",
+        "x": 360,
+        "y": 940,
+        "wires": [
+            [
+                "762ed6d68b4fd934"
+            ]
+        ]
+    },
+    {
+        "id": "6bca8a95a9f282ca",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "5af30b734ae5058e",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Set humidity alert message",
+        "func": "msg.alertMsg = \"[Cảnh báo!] Độ ẩm trong không khí hiện tại là: \"\n    + String(Math.round(msg.payload)) + \"%, \";\nif (msg.alert_high_humidity == true) {\n    msg.payload = msg.alertMsg + \"cao hơn mức an toàn!\";\n    return msg;\n} else if (msg.alert_low_humidity == true) {\n    msg.payload = msg.alertMsg + \"thấp hơn mức an toàn!\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 900,
+        "wires": [
+            [
+                "ae35d873159d445a"
+            ]
+        ]
+    },
+    {
+        "id": "df5e234cd4db11c1",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Too low",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "39",
+        "payloadType": "num",
+        "x": 570,
+        "y": 960,
+        "wires": [
+            [
+                "762ed6d68b4fd934"
+            ]
+        ]
+    },
+    {
+        "id": "a4fc473fd8223d06",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Normal",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "40",
+        "payloadType": "num",
+        "x": 770,
+        "y": 980,
+        "wires": [
+            [
+                "762ed6d68b4fd934"
+            ]
+        ]
+    },
+    {
+        "id": "8454ff8d3eb51f6f",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Set temperature alert message",
+        "func": "msg.alertMsg = \"[Cảnh báo!] Nhiệt độ môi trường hiện tại là: \"\n    + String(Math.round(msg.payload)) + \"°C, \";\nif (msg.alert_high_temperature == true) {\n    msg.payload = msg.alertMsg + \"cao hơn mức an toàn!\";\n    return msg;\n} else if (msg.alert_low_temperature == true) {\n    msg.payload = msg.alertMsg + \"thấp hơn mức an toàn!\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 1100,
+        "wires": [
+            [
+                "ae35d873159d445a"
+            ]
+        ]
+    },
+    {
+        "id": "a69734b5ec87fa3a",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Too low",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "14",
+        "payloadType": "num",
+        "x": 570,
+        "y": 1180,
+        "wires": [
+            [
+                "97a45e4e164b7a7d"
+            ]
+        ]
+    },
+    {
+        "id": "6fb20fe2f7a0b45f",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Too high",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "40",
+        "payloadType": "num",
+        "x": 360,
+        "y": 1140,
+        "wires": [
+            [
+                "97a45e4e164b7a7d"
+            ]
+        ]
+    },
+    {
+        "id": "48c559e935807357",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Normal",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "24",
+        "payloadType": "num",
+        "x": 770,
+        "y": 1200,
+        "wires": [
+            [
+                "97a45e4e164b7a7d"
+            ]
+        ]
+    },
+    {
+        "id": "6f2ed81c9438819e",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Too high",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "50",
+        "payloadType": "num",
+        "x": 540,
+        "y": 1360,
+        "wires": [
+            [
+                "cc902911dceab8f7"
+            ]
+        ]
+    },
+    {
+        "id": "73e76bb0a0c942ef",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Normal",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "24",
+        "payloadType": "num",
+        "x": 690,
+        "y": 1380,
+        "wires": [
+            [
+                "cc902911dceab8f7"
+            ]
+        ]
+    },
+    {
+        "id": "4ece93327fdf7637",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Set heat index alert message",
+        "func": "msg.alertMsg = \"[Cảnh báo!] Chỉ số nóng bức hiện tại là: \"\n    + String(Math.round(msg.payload)) + \"°C, \";\nif (msg.alert_high_heat_index == true) {\n    msg.payload = msg.alertMsg + \"cao hơn mức an toàn!\";\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 1320,
+        "wires": [
+            [
+                "ae35d873159d445a"
+            ]
+        ]
+    },
+    {
+        "id": "4aa27e490bc410f6",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Too high",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1600",
+        "payloadType": "num",
+        "x": 500,
+        "y": 1620,
+        "wires": [
+            [
+                "8b744e34a6c09645"
+            ]
+        ]
+    },
+    {
+        "id": "5c07c0f4edabeffa",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Normal",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "240",
+        "payloadType": "num",
+        "x": 650,
+        "y": 1640,
+        "wires": [
+            [
+                "8b744e34a6c09645"
+            ]
+        ]
+    },
+    {
+        "id": "c0d672dcf27c1d69",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Set lpg alert message",
+        "func": "msg.alertMsg = \"[Cảnh báo!] Nồng độ khí dầu mỏ hóa lỏng LPG trong môi trường là: \"\n    + String(Math.round(msg.payload)) + \" (ppm), \";\nif (msg.alert_high_lpg == true) {\n    msg.payload = msg.alertMsg + \"cao hơn mức an toàn!\";\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 1580,
+        "wires": [
+            [
+                "372cec0c0c998098"
+            ]
+        ]
+    },
+    {
+        "id": "8c5e07b328c2ded1",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "f7b10a3a751f5127",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Too high",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1000",
+        "payloadType": "num",
+        "x": 500,
+        "y": 1800,
+        "wires": [
+            [
+                "d4fd1dd524e967f6"
+            ]
+        ]
+    },
+    {
+        "id": "91e188907b312e69",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Normal",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "24",
+        "payloadType": "num",
+        "x": 650,
+        "y": 1820,
+        "wires": [
+            [
+                "d4fd1dd524e967f6"
+            ]
+        ]
+    },
+    {
+        "id": "df836dc02e5cdeca",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Set lpg alert message",
+        "func": "msg.alertMsg = \"[Cảnh báo!] Nồng độ khí CO trong môi trường là: \"\n    + String(Math.round(msg.payload)) + \" (ppm), \";\nif (msg.alert_high_co == true) {\n    msg.payload = msg.alertMsg + \"cao hơn mức an toàn!\";\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 1760,
+        "wires": [
+            [
+                "372cec0c0c998098"
+            ]
+        ]
+    },
+    {
+        "id": "60ce997a8140bbc6",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Set smoke alert message",
+        "func": "msg.alertMsg = \"[Cảnh báo!] Nồng độ khói trong môi trường là: \"\n    + String(Math.round(msg.payload)) + \" (ppm), \";\nif (msg.alert_high_smoke == true) {\n    msg.payload = msg.alertMsg + \"cao hơn mức an toàn!\";\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 1940,
+        "wires": [
+            [
+                "372cec0c0c998098"
+            ]
+        ]
+    },
+    {
+        "id": "0fa96255657cc521",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Too high",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1888",
+        "payloadType": "num",
+        "x": 500,
+        "y": 1980,
+        "wires": [
+            [
+                "9e1b1625513c1232"
+            ]
+        ]
+    },
+    {
+        "id": "c65ca87f2b99e8d1",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Normal",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "24",
+        "payloadType": "num",
+        "x": 650,
+        "y": 2000,
+        "wires": [
+            [
+                "9e1b1625513c1232"
+            ]
+        ]
+    },
+    {
+        "id": "509d0c17bdff344c",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "7b936ea09aff6d98",
+        "name": "Mode switching message",
+        "func": "// Khi robot vừa khởi động \nif (msg.topic == \"ready\") {\n    msg.payload = \"[Thông báo] Robot đã sẵn sàng hoạt động.\";\n\n    // audio out\n    msg.audio = \"The robot is ready to go.\";\n    return msg;\n}\n\n//msg.info = \"[Thông báo] Robot đã chuyển sang chế độ: \";\nmsg.info = \"[Thông báo] Robot đang ở chế độ: \";\n\nif (msg.payload == \"auto\") {\n    msg.payload = msg.info + \"tự động dò đường.\";\n} else if (msg.payload == \"manual\") {\n    msg.payload = msg.info + \"điều khiển thông qua trang web.\";\n} else if (msg.payload == \"stop\") {\n    msg.payload = msg.info + \"dừng di chuyển.\";\n}\n// audio out\nmsg.audio = \"The robot has switched mode.\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 2360,
+        "wires": [
+            [
+                "5b61896d7a740f4c",
+                "8fad24382700591e"
+            ]
+        ]
+    },
+    {
+        "id": "0db9f0deb01d0b2a",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "3b0f026892bd01fb",
+        "name": "Human detected message",
+        "func": "if (msg.payload == \"detected\") {\n    msg.payload = \"[Phát hiện!] Đã tìm thấy đối tượng!\";\n    // audio out\n    msg.audio = \"Found!\";\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 2120,
+        "wires": [
+            [
+                "7e6b77f5e251b123",
+                "8fad24382700591e"
+            ]
+        ]
+    },
+    {
+        "id": "372cec0c0c998098",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "16e95202e45e2966",
+        "name": "Forward",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 1740,
+        "wires": [
+            [
+                "8fad24382700591e",
+                "8c5e07b328c2ded1"
+            ]
+        ]
+    },
+    {
+        "id": "47225c64851c0271",
+        "type": "e-mail",
+        "z": "9b30030f667a40d7",
+        "d": true,
+        "g": "7ebbdd869e1ce2cc",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "vmphat.24@gmail.com",
+        "dname": "",
+        "x": 2040,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "8fad24382700591e",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "7ebbdd869e1ce2cc",
+        "name": "Add Topic",
+        "func": "msg.topic = \"[Thông báo từ NaVi-001]\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 2040,
+        "wires": [
+            [
+                "47225c64851c0271",
+                "39658aca00d61a5b",
+                "08c620030b74f963",
+                "6f8669073f60b9ae"
+            ]
+        ]
+    },
+    {
+        "id": "39658aca00d61a5b",
+        "type": "http request",
+        "z": "9b30030f667a40d7",
+        "g": "7ebbdd869e1ce2cc",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://maker.ifttt.com/trigger/navi_001_info/with/key/dCj8IZOKcUudV2NtFmBZm5?value1={{payload}}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 2030,
+        "y": 2100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae35d873159d445a",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "2107adafd3f2e281",
+        "name": "Forward",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1560,
+        "y": 1100,
+        "wires": [
+            [
+                "6bca8a95a9f282ca",
+                "8fad24382700591e"
+            ]
+        ]
+    },
+    {
+        "id": "08c620030b74f963",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7ebbdd869e1ce2cc",
+        "group": "c1e6de0d4d0c97f8",
+        "name": "Notification",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "format": "<header>\n    <style>\n        /* Reference: https://codepen.io/rdelrio/pen/WmvYev */\n        #toast {\n            visibility: hidden;\n            height: 50px;\n            width: fit-content;\n            margin: auto;\n            background-color: rgb(209, 68, 68);\n            color: #fff;\n            text-align: center;\n            border-radius: 10px;\n            position: fixed;\n            z-index: 1;\n            left: 0;\n            right: 0;\n            top: 30px;\n            font: bold 16px Helvetica, Arial, sans-serif;\n            white-space: nowrap;\n        }\n\n        #toast #desc {\n            color: #fff;\n            padding: 16px;\n            overflow: hidden;\n            white-space: nowrap;\n        }\n\n        #toast.show {\n            visibility: visible;\n            /*animation: fadein 1s, fadeout 1s 3s;\n    */\n            animation: fadein 0.5s, fadeout 0.5s 1.5s;\n        }\n\n        @keyframes fadein {\n            from {\n                top: 0;\n                opacity: 0;\n            }\n\n            to {\n                top: 30px;\n                opacity: 1\n            }\n        }\n\n        @keyframes fadeout {\n            from {\n                top: 30px;\n                opacity: 1;\n            }\n\n            to {\n                top: 0;\n                opacity: 0;\n            }\n        }\n    </style>\n</header>\n\n<script>\n(function(scope) { \n    scope.$watch('msg', function(msg) { \n        if (msg && msg.payload !== \"\") { \n            var notification = document.getElementById(\"toast\");\n            notification.classList.add(\"show\"); \n            setTimeout(function() { notification.classList.remove(\"show\"); }, 1900); \n        } \n    }); \n})(scope); \n</script>\n\n<div id=\"toast\">\n    <div id=\"desc\">{{msg.payload}}</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1990,
+        "y": 2160,
+        "wires": [
+            [
+                "939e0c4a31995d51"
+            ]
+        ]
+    },
+    {
+        "id": "939e0c4a31995d51",
+        "type": "debug",
+        "z": "9b30030f667a40d7",
+        "g": "7ebbdd869e1ce2cc",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2100,
+        "y": 2220,
+        "wires": []
+    },
+    {
+        "id": "fff91375b695448f",
+        "type": "ui_audio",
+        "z": "9b30030f667a40d7",
+        "g": "7ebbdd869e1ce2cc",
+        "name": "",
+        "group": "c1e6de0d4d0c97f8",
+        "voice": "Microsoft David - English (United States)",
+        "always": false,
+        "x": 2100,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "6f8669073f60b9ae",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "7ebbdd869e1ce2cc",
+        "name": "Set audio out",
+        "func": "if (msg.audio == null) {\n    // msg = {\n    //     \"payload\": \"Alert!\"\n    // }\n    msg.payload = \"Alert!\";\n} else {\n    msg.payload = msg.audio;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1930,
+        "y": 2280,
+        "wires": [
+            [
+                "fff91375b695448f"
+            ]
+        ]
+    },
+    {
+        "id": "57a15fbc2d9db7cb",
+        "type": "inject",
+        "z": "9b30030f667a40d7",
+        "g": "3b0f026892bd01fb",
+        "name": "Human detected",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "detected",
+        "payloadType": "str",
+        "x": 940,
+        "y": 2160,
+        "wires": [
+            [
+                "0db9f0deb01d0b2a"
+            ]
+        ]
+    },
+    {
+        "id": "39c6294404da255c",
+        "type": "ui_text",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "group": "7ce03692fd4753e3",
+        "order": 9,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Download",
+        "format": "",
+        "layout": "col-center",
+        "className": "navigation-title",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1000,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "84fb06d4e6c84a2b",
+        "type": "ui_button",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "Download",
+        "group": "7ce03692fd4753e3",
+        "order": 11,
+        "width": 2,
+        "height": 2,
+        "passthru": true,
+        "label": "",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "navigation-button save-button",
+        "icon": "fa-cloud-download",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1120,
+        "y": 360,
+        "wires": [
+            [
+                "79c6fb5c1db5e39a"
+            ]
+        ]
+    },
+    {
+        "id": "25e177d51a8626e4",
+        "type": "function",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "Add Topic",
+        "func": "msg = {\n    \"topic\": \"[Dữ liệu thu thập được từ NaVi-001] @\" + new Date().toISOString(),\n    \"payload\": msg.payload\n}\n//.topic = \"[Thông báo từ NaVi-001]\";\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 320,
+        "wires": [
+            [
+                "34636e0c2ebd3dd0"
+            ]
+        ]
+    },
+    {
+        "id": "79c6fb5c1db5e39a",
+        "type": "firebase.once",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "",
+        "firebaseconfig": "",
+        "childpath": "navi-001",
+        "repeatifnull": false,
+        "eventType": "value",
+        "queries": [],
+        "x": 1350,
+        "y": 420,
+        "wires": [
+            [
+                "5a64278bc7077e14"
+            ]
+        ]
+    },
+    {
+        "id": "34636e0c2ebd3dd0",
+        "type": "e-mail",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "vmphat.24@gmail.com",
+        "dname": "",
+        "x": 1560,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "5a64278bc7077e14",
+        "type": "json",
+        "z": "9b30030f667a40d7",
+        "g": "bbc270e55f31ad15",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 1330,
+        "y": 360,
+        "wires": [
+            [
+                "25e177d51a8626e4"
+            ]
+        ]
+    },
+    {
+        "id": "f7078580c9532887",
+        "type": "ui_template",
+        "z": "9b30030f667a40d7",
+        "g": "7ed06cbb24a9d394",
+        "group": "c1e6de0d4d0c97f8",
+        "name": "Light CSS",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "format": "<head>\n<style>\n    :root {\n        --border_rad: 12px;\n        --pad_value: 5px;\n    }\n\n    .light-button button {\n        width: 100%;\n        scale: 0.9;\n        bottom: 12px;\n        \n        text-align: center;\n        text-decoration: none;\n        border: 2px solid #008000 !important;\n        border-radius: var(--border_rad);\n        transition-duration: 0.4s;\n        \n        font-family: 'Allerta Stencil';\n        font-size: 24px;\n\n        background-color: none !important;\n        background-color: rgba(50,205,50,0.7) !important;\n        color: #E8F6EF !important;\n        text-shadow: -1px 0 #8294C4, 0 -1px #ACB1D6,\n                      0 1px #8294C4, 1px 0 #ACB1D6;\n\n        box-shadow: 0 10px #8c8c8c !important;\n    }\n    .light-button button:active {\n        transform: translateY(5px);\n        box-shadow: 0 5px #666 !important;\n        transition-duration: 0.4s;\n    }\n\n    .on-button {\n    }\n    .on-button button:hover {\n        transition-duration: 0.2s;\n        background-color: #008000 !important;\n        border: 2px solid #008000 !important;\n    }\n\n    .off-button button {\n        border: 2px solid #CD1818 !important;\n        background-color: rgba(250, 95, 85,0.85) !important;\n    \n    }\n    .off-button button:hover {\n        transition-duration: 0.2s;\n        background-color: #CD1818 !important;\n        border: 2px solid #CD1818 !important;\n    }\n\n    .auto-button button {\n        border: 2px solid #2E2EFF !important;\n        background-color: rgba(65, 105, 225, 0.9) !important;\n    }\n    .auto-button button:hover {\n        transition-duration: 0.2s;\n        background-color: #2E2EFF !important;\n        border: 2px solid #2E2EFF !important;\n    }\n\n    .nr-dashboard-ui_multistate_switch {\n    }\n    .multistate-switch-wrapper.multistate-switch-round {\n        background-color: rgba(255, 250, 240, 0.1) !important;\n        border-radius: 1em;\n        border: 0.9px solid rgba(232, 232, 232, 0.5);\n        opacity: 0.9;\n        bottom: 8px;\n        height: 28px;\n        width: 100%;\n        scale: 1.04;\n        display: flex;\n        position: relative;\n        flex-flow: column nowrap;\n        justify-content: center;\n        align-items: center;\n        box-shadow: 0 1px #B9D3EE,\n                    0 2px #C6E2FF !important;\n    }\n    .multistate-switch-slider.multistate-switch-round {\n        display: flex;\n        width: 95px;\n        height: 100%;\n        align-items: center;\n\n        transform: translate(0.15em,-0.1em);\n        padding: 0;\n    }\n\n<\\style>\n<\\head>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 600,
+        "y": 100,
+        "wires": [
+            []
+        ],
+        "outputLabels": [
+            "msg"
+        ]
+    },
+    {
+        "id": "12901fc5f35c2e32",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "c1e6de0d4d0c97f8",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2575b49ce6014e46",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "c1e6de0d4d0c97f8",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c8f5dd91d8972aac",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "c1e6de0d4d0c97f8",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7ce49dd7796d8bb4",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "92e778a349f983b2",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0e7cc97c9a2c6dfb",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "4d08ad27f7d77657",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "dd02c79c28de761e",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "4efeb086689ef64c",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 14,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "1039e1bc2e318ec8",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 17,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "557e26d40e134486",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 19,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "0b9538e6b981dfac",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 20,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "659ee699cec6f4bf",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 21,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "bb731e7768108507",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 22,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8e809532566a982b",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 24,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "53757c8ba8b85d4e",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 26,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "75836040b6723e74",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 27,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "80dd837c40a67438",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 29,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d44088306c21240f",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 31,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2dd3bdf3f59ae9de",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 32,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "5cd9ba14e7f12901",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 33,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a8a92a3bef46e188",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 37,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b98ddc401129bd9e",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "2a89fb107fed3567",
+        "order": 39,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e6637432984b961c",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a132318226d9b0d0",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f8e76d19c5ed01ea",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5d69ae5f720bb2c7",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "73027462fd015f3c",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3bc3eef8760f9c53",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4ad7b97b6b72de33",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c32010d85fef57b0",
+        "type": "ui_spacer",
+        "z": "9b30030f667a40d7",
+        "name": "spacer",
+        "group": "7ce03692fd4753e3",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "573e0e4a.d065e",
+        "type": "ui_group",
+        "name": "Clock",
+        "tab": "e078c6b.429dd38",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2a89fb107fed3567",
+        "type": "ui_group",
+        "name": "Car Control",
+        "tab": "e078c6b.429dd38",
+        "order": 4,
+        "disp": true,
+        "width": "18",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "7dd935cd2eeed908",
+        "type": "ui_group",
+        "name": "Temperature and Humidity",
+        "tab": "e078c6b.429dd38",
+        "order": 2,
+        "disp": true,
+        "width": 18,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "b03d05eab4f8dc98",
+        "type": "ui_group",
+        "name": "Gas Concentration",
+        "tab": "e078c6b.429dd38",
+        "order": 3,
+        "disp": true,
+        "width": 18,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "c1e6de0d4d0c97f8",
+        "type": "ui_group",
+        "name": "Heading",
+        "tab": "e078c6b.429dd38",
+        "order": 1,
+        "disp": false,
+        "width": 18,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7ce03692fd4753e3",
+        "type": "ui_group",
+        "name": "Navigation And Util Button",
+        "tab": "e078c6b.429dd38",
+        "order": 5,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e078c6b.429dd38",
+        "type": "ui_tab",
+        "name": "NaVi-001",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
